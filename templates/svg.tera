@@ -307,36 +307,20 @@ whiskers:
     <path style="fill:#{{ surface0.hex }}" d="m 171,921.5 h -1 l 1e-4,-6 h 1 z"/>
   </g>
   <g id="tab-close-disabled" transform="translate(474,-745.00024)">
-    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953"/>
-    <g style="enable-background:new" transform="translate(266,950.00697)">
-      <g transform="translate(-265,-121)">
-        <path style="opacity:0.00100002" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z"/>
-      </g>
-    </g>
+    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953" id="rect103"/>
+    <path style="enable-background:new;opacity:0.00100002" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z" id="path104" transform="translate(1,829.00697)"/>
   </g>
   <g id="tab-close-pressed" transform="translate(462,-745.00024)">
-    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953"/>
-    <g style="enable-background:new" transform="translate(266,950.00697)">
-      <g transform="translate(-265,-121)">
-        <path style="fill:#{{ accent.hex }}" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z"/>
-      </g>
-    </g>
+    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953" id="rect105"/>
+    <path style="enable-background:new;fill:#{{ accent.hex }}" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z" id="path105" transform="translate(1,829.00697)"/>
   </g>
   <g id="tab-close-focused" transform="translate(450,-745.00024)">
-    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953"/>
-    <g style="enable-background:new" transform="translate(266,950.00697)">
-      <g transform="translate(-265,-121)">
-        <path style="fill:#{{ red.hex }}" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z"/>
-      </g>
-    </g>
+    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953" id="rect107"/>
+    <path style="enable-background:new;fill:#{{ red.hex }}" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z" id="path107" transform="translate(1,829.00697)"/>
   </g>
   <g id="tab-close-normal" transform="translate(438,-745.00024)">
-    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953"/>
-    <g style="enable-background:new" transform="translate(266,950.00697)">
-      <g transform="translate(-265,-121)">
-        <path style="fill:#{{ text.hex }}" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z"/>
-      </g>
-    </g>
+    <rect style="opacity:0.00100002" width="10" height="10" x="269" y="953" id="rect109"/>
+    <path style="enable-background:new;fill:#{{ text.hex }}" d="m 270,125 a 1,1 0 0 0 -1,1 1,1 0 0 0 0.29297,0.70703 l 2.293,2.293 -2.293,2.293 a 1,1 0 0 0 -0.29,0.7 1,1 0 0 0 1,1 1,1 0 0 0 0.70703,-0.29297 l 2.293,-2.293 2.2832,2.2832 a 1,1 0 0 0 0.7168,0.30273 1,1 0 0 0 1,-1 1,1 0 0 0 -0.29297,-0.70703 l -2.3,-2.3 2.2832,-2.2832 a 1,1 0 0 0 0.31,-0.72 1,1 0 0 0 -1,-1 1,1 0 0 0 -0.70703,0.29297 l -2.293,2.293 -2.2832,-2.2832 a 1,1 0 0 0 -0.01,-0.01 1,1 0 0 0 -0.7,-0.29 z" id="path109" transform="translate(1,829.00697)"/>
   </g>
   <g id="tab-toggled-bottomright" transform="matrix(-1,0,0,0.66666667,660.00021,-302.33356)">
     <path style="opacity:0.00100002;fill-rule:evenodd" d="M 174.0001,921.5 H 170 l 1e-4,-6 h 4 z"/>
@@ -569,113 +553,35 @@ whiskers:
   <use id="resize-grip-focused" width="450" height="1380" x="0" y="0" transform="translate(50)" xlink:href="#resize-grip-normal"/>
   <path id="resize-grip-normal" style="opacity:0.00100002;fill:#b4b4b4" d="m 371.00039,90.896008 v 20.000002 h -20 z"/>
   <g id="menu-radio-checked-focused" transform="translate(-48,173.6378)">
-    <g transform="translate(19.004264)">
-      <g>
-        <g transform="matrix(0.93617253,0,0,0.93566004,-96.78315,-244.76084)">
-          <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98"/>
-          <g>
-            <g transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-              <g>
-                <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#999999;stroke-width:0;stroke-linejoin:round" width="29.385" height="28.919" x="51.61" y="126.56" rx="14.692" ry="14.46"/>
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
-    <rect style="fill:#{{ base.hex }}" width="4" height="4" x="122" y="6.36" rx="1.999" ry="2"/>
+    <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98" id="rect180" transform="matrix(0.93617253,0,0,0.93566004,-77.77889,-244.76084)"/>
+    <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#999999;stroke-width:0;stroke-linejoin:round" width="29.385" height="28.919" x="51.61" y="126.56" rx="14.692" ry="14.46" id="rect181" transform="matrix(0.47643346,0,0,0.48410885,92.410914,-59.90786)"/>
+    <rect style="fill:#{{ base.hex }}" width="4" height="4" x="122" y="6.36" rx="1.999" ry="2" id="rect186"/>
   </g>
   <g id="menu-radio-focused" transform="translate(-80.995736,174.63811)">
-    <g>
-      <g transform="matrix(0.93617253,0,0,0.93566004,-96.78315,-244.76084)">
-        <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98"/>
-        <g>
-          <g transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-            <g>
-              <g>
-                <path style="fill:#{{ base.hex }};opacity:0.8" d="m 65.884766,126.5625 c -7.88589,0 -14.265625,6.3909 -14.265625,14.28711 v 0.34375 c 0,7.89621 6.379735,14.28711 14.265625,14.28711 h 0.855468 c 7.88589,0 14.265625,-6.3909 14.265625,-14.28711 v -0.34375 c 0,-7.89621 -6.379735,-14.28711 -14.265625,-14.28711 z m 0,2.08203 h 0.855468 c 6.766501,0 12.181641,5.42455 12.181641,12.20508 v 0.34375 c 0,6.78053 -5.41514,12.20508 -12.181641,12.20508 h -0.855468 c -6.766501,0 -12.183594,-5.42455 -12.183594,-12.20508 v -0.34375 c 0,-6.78053 5.417093,-12.20508 12.183594,-12.20508 z"/>
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98" id="rect187" transform="matrix(0.93617253,0,0,0.93566004,-96.783154,-244.76084)"/>
+    <path style="fill:#{{ base.hex }};opacity:0.8" d="m 65.884766,126.5625 c -7.88589,0 -14.265625,6.3909 -14.265625,14.28711 v 0.34375 c 0,7.89621 6.379735,14.28711 14.265625,14.28711 h 0.855468 c 7.88589,0 14.265625,-6.3909 14.265625,-14.28711 v -0.34375 c 0,-7.89621 -6.379735,-14.28711 -14.265625,-14.28711 z m 0,2.08203 h 0.855468 c 6.766501,0 12.181641,5.42455 12.181641,12.20508 v 0.34375 c 0,6.78053 -5.41514,12.20508 -12.181641,12.20508 h -0.855468 c -6.766501,0 -12.183594,-5.42455 -12.183594,-12.20508 v -0.34375 c 0,-6.78053 5.417093,-12.20508 12.183594,-12.20508 z" id="path187" transform="matrix(0.47643346,0,0,0.48410885,73.40665,-59.90786)"/>
   </g>
   <g id="menu-radio-normal" transform="translate(-96.995736,174.63811)">
-    <g>
-      <g transform="matrix(0.93617253,0,0,0.93566004,-96.78315,-244.76084)">
-        <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98"/>
-        <g>
-          <g transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-            <g>
-              <rect style="fill:#{{ surface0.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-width:2.08222;stroke-linejoin:round" width="27.304" height="26.836" x="52.66" y="127.6" rx="13.224" ry="13.246"/>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98" id="rect192" transform="matrix(0.93617253,0,0,0.93566004,-96.783154,-244.76084)"/>
+    <rect style="fill:#{{ surface0.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-width:2.08222;stroke-linejoin:round" width="27.304" height="26.836" x="52.66" y="127.6" rx="13.224" ry="13.246" id="rect193" transform="matrix(0.47643346,0,0,0.48410885,73.40665,-59.90786)"/>
   </g>
   <g id="radio-checked-focused" transform="translate(-32.000001,157.63781)">
-    <g transform="translate(19.004264)">
-      <g>
-        <g transform="matrix(0.93617253,0,0,0.93566004,-96.78315,-244.76084)">
-          <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98"/>
-          <g>
-            <g transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-              <g>
-                <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex")}};stroke:#999999;stroke-width:0;stroke-linejoin:round" width="29.385" height="28.919" x="51.61" y="126.56" rx="14.692" ry="14.46"/>
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
-    <rect style="fill:#{{ base.hex }}" width="4" height="4" x="122" y="6.36" rx="1.999" ry="2"/>
+    <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98" id="rect197" transform="matrix(0.93617253,0,0,0.93566004,-77.778889,-244.76084)"/>
+    <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex")}};stroke:#999999;stroke-width:0;stroke-linejoin:round" width="29.385" height="28.919" x="51.61" y="126.56" rx="14.692" ry="14.46" id="rect198" transform="matrix(0.47643346,0,0,0.48410885,92.410914,-59.907857)"/>
+    <rect style="fill:#{{ base.hex }}" width="4" height="4" x="122" y="6.36" rx="1.999" ry="2" id="rect203"/>
   </g>
   <g id="radio-checked-normal" transform="translate(-48,157.63781)">
-    <g id="radio-unchecked-2-1" transform="translate(19.004264)">
-      <g>
-        <g id="radio-unchecked2-0-8" transform="matrix(0.93617253,0,0,0.93566004,-96.78315,-244.76084)">
-          <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98"/>
-          <g>
-            <g transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-              <g>
-                <rect style="fill:#{{ accent.hex }};stroke:#999999;stroke-width:0;stroke-linejoin:round" width="29.385" height="28.919" x="51.61" y="126.56" rx="14.692" ry="14.46"/>
-              </g>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
-    <rect style="fill:#{{ base.hex }}" width="4" height="4" x="122" y="6.36" rx="1.999" ry="2"/>
+    <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98" id="rect204" transform="matrix(0.93617253,0,0,0.93566004,-77.77889,-244.76084)"/>
+    <rect style="fill:#{{ accent.hex }};stroke:#999999;stroke-width:0;stroke-linejoin:round" width="29.385" height="28.919" x="51.61" y="126.56" rx="14.692" ry="14.46" id="rect205" transform="matrix(0.47643346,0,0,0.48410885,92.410914,-59.907857)"/>
+    <rect style="fill:#{{ base.hex }}" width="4" height="4" x="122" y="6.36" rx="1.999" ry="2" id="rect208"/>
   </g>
   <g id="radio-focused" transform="translate(-80.995736,158.63812)">
-    <g>
-      <g transform="matrix(0.93617253,0,0,0.93566004,-96.78315,-244.76084)">
-        <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98"/>
-        <g>
-          <g transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-            <g>
-              <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.2;stroke-width:2.08222;stroke-linejoin:round" width="27.304" height="26.836" x="52.66" y="127.6" rx="13.224" ry="13.246"/>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98" id="rect209" transform="matrix(0.93617253,0,0,0.93566004,-96.783154,-244.76084)"/>
+    <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.2;stroke-width:2.08222;stroke-linejoin:round" width="27.304" height="26.836" x="52.66" y="127.6" rx="13.224" ry="13.246" id="rect210" transform="matrix(0.47643346,0,0,0.48410885,73.40665,-59.907857)"/>
   </g>
   <g id="radio-normal" transform="translate(-96.995736,158.63812)">
-    <g>
-      <g id="radio-unchecked2-6-5" transform="matrix(0.93617253,0,0,0.93566004,-96.78315,-244.76084)">
-        <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98"/>
-        <g>
-          <g transform="matrix(0.5089163,0,0,0.51739823,181.7932,197.56426)">
-            <g>
-              <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-width:2.08222;stroke-linejoin:round" width="27.304" height="26.836" x="52.66" y="127.6" rx="13.224" ry="13.246"/>
-            </g>
-          </g>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="17.091" height="17.1" x="206.99" y="261.98" id="rect214" transform="matrix(0.93617253,0,0,0.93566004,-96.783154,-244.76084)"/>
+    <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-width:2.08222;stroke-linejoin:round" width="27.304" height="26.836" x="52.66" y="127.6" rx="13.224" ry="13.246" id="rect215" transform="matrix(0.47643346,0,0,0.48410885,73.40665,-59.907857)"/>
   </g>
   <rect id="progress-pattern-disabled" style="opacity:0.00100002;fill:#{{ accent.hex }}" width="20" height="20" x="455" y="23"/>
   <g id="progress-pattern-normal-bottomright" transform="translate(354,-85.000244)">
@@ -1259,181 +1165,53 @@ whiskers:
   <path style="fill:#{{ surface0.hex }}" d="m 659.00043,368.99975 h 40 v -1.00005 h -40 z" id="common-normal-top"/>
   <path style="fill:#{{ surface0.hex }}" d="m 658,368.00241 c -1.10167,0 -0.99736,-0.10427 -0.99736,0.99736 H 658 Z" id="common-normal-topleft"/>
   <g id="menu-checkbox-tristate-focused" transform="translate(284.00001,173.6378)">
-    <g transform="translate(19)">
-      <g>
-        <g transform="translate(0,-30)">
-          <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-          <g>
-            <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(36,-1036)">
-      <g transform="rotate(45,7.4999938,1026.3622)">
-        <g transform="translate(12.374375,11.531233)">
-          <g style="fill:#{{ surface0.hex }}" transform="translate(-3,-4.9999826)">
-            <rect style="fill:#{{ base.hex }}" width="2" height="8" x="-738.8" y="-725.96" ry="0" transform="rotate(-135)"/>
-          </g>
-          <rect style="fill:#{{ text.hex }};fill-opacity:0" width="3" height="1" x="5" y="-8" transform="translate(0,1036.3622)"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect404" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2" id="rect405" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ base.hex }}" width="2" height="8" x="-738.8" y="-725.96" ry="0" transform="rotate(-90,18.256485,-747.69827)" id="rect408"/>
   </g>
   <g id="menu-checkbox-checked-focused" transform="translate(219.00002,173.63771)">
-    <g transform="translate(19)">
-      <g>
-        <g transform="translate(0,-30)">
-          <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-          <g>
-            <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex")}};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(36,-1036)">
-      <g transform="rotate(45,7.4999938,1026.3622)">
-        <g transform="translate(12.374375,11.531233)">
-          <g style="fill:#{{ surface0.hex }}" transform="translate(-3,-4.9999826)">
-            <rect style="fill:#{{ base.hex }}" width="5" height="2" x="8" y="1033.36" rx=".667" ry=".667"/>
-            <rect style="fill:#{{ base.hex }}" width="2" height="8" x="11" y="1027.36" ry="0"/>
-          </g>
-          <rect style="fill:#{{ text.hex }};fill-opacity:0" width="3" height="1" x="5" y="-8" transform="translate(0,1036.3622)"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect412" transform="translate(19,-30)"/>
+    <rect style="display:inline;fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex")}};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.360001" rx="2" ry="2" id="rect413" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ base.hex }}" width="5" height="2" x="8" y="1033.36" rx=".667" ry=".667" id="rect416" transform="rotate(45,1263.4915,559.86829)"/>
+    <rect style="fill:#{{ base.hex }}" width="2" height="8" x="11" y="1027.36" ry="0" id="rect417" transform="rotate(45,1263.4915,559.86829)"/>
   </g>
   <g id="menu-checkbox-focused" transform="translate(171,173.63781)">
-    <g>
-      <g transform="translate(0,-30)">
-        <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-        <g>
-          <g>
-            <path style="fill:#{{ base.hex }};opacity:0.8" d="m 20.5,31.361328 c -1.37635,0 -2.5,1.12365 -2.5,2.5 v 9 c 0,1.37635 1.12365,2.5 2.5,2.5 h 9 c 1.37635,0 2.5,-1.12365 2.5,-2.5 v -9 c 0,-1.37635 -1.12365,-2.5 -2.5,-2.5 z m 0,1 h 9 c 0.839648,0 1.5,0.660352 1.5,1.5 v 9 c 0,0.839648 -0.660352,1.5 -1.5,1.5 h -9 c -0.839648,0 -1.5,-0.660352 -1.5,-1.5 v -9 c 0,-0.839648 0.660352,-1.5 1.5,-1.5 z"/>
-          </g>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect420" transform="translate(0,-30)"/>
+    <path style="fill:#{{ base.hex }};opacity:0.8" d="m 20.5,31.361328 c -1.37635,0 -2.5,1.12365 -2.5,2.5 v 9 c 0,1.37635 1.12365,2.5 2.5,2.5 h 9 c 1.37635,0 2.5,-1.12365 2.5,-2.5 v -9 c 0,-1.37635 -1.12365,-2.5 -2.5,-2.5 z m 0,1 h 9 c 0.839648,0 1.5,0.660352 1.5,1.5 v 9 c 0,0.839648 -0.660352,1.5 -1.5,1.5 h -9 c -0.839648,0 -1.5,-0.660352 -1.5,-1.5 v -9 c 0,-0.839648 0.660352,-1.5 1.5,-1.5 z" id="path420" transform="translate(0,-30)"/>
   </g>
   <g id="menu-checkbox-normal" transform="translate(155,173.63781)">
-    <g>
-      <g transform="translate(0,-30)">
-        <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-        <g>
-          <rect style="fill:#{{ surface0.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-linejoin:round" width="13" height="13" x="18.5" y="31.86" rx="2" ry="2"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect424" transform="translate(0,-30)"/>
+    <rect style="fill:#{{ surface0.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-linejoin:round" width="13" height="13" x="18.5" y="31.86" rx="2" ry="2" id="rect425" transform="translate(0,-30)"/>
   </g>
   <g id="checkbox-checked-focused" transform="translate(235.00002,157.63772)">
-    <g transform="translate(19)">
-      <g>
-        <g transform="translate(0,-30)">
-          <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-          <g>
-            <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(36,-1036)">
-      <g transform="rotate(45,7.4999938,1026.3622)">
-        <g transform="translate(12.374375,11.531233)">
-          <g style="fill:#{{ surface0.hex }}" transform="translate(-3,-4.9999826)">
-            <rect style="fill:#{{ base.hex }}" width="5" height="2" x="8" y="1033.36" rx=".667" ry=".667"/>
-            <rect style="fill:#{{ base.hex }}" width="2" height="8" x="11" y="1027.36" ry="0"/>
-          </g>
-          <rect style="fill:#{{ text.hex }};fill-opacity:0" width="3" height="1" x="5" y="-8" transform="translate(0,1036.3622)"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect427" transform="translate(19,-30)"/>
+    <rect style="display:inline;fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.360001" rx="2" ry="2" id="rect428" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ base.hex }};display:inline" width="5" height="2" x="8" y="1033.36" rx="0.667" ry="0.667" id="rect431" transform="rotate(45,1263.4916,559.86829)"/>
+    <rect style="fill:#{{ base.hex }};display:inline" width="2" height="8" x="11" y="1027.36" ry="0" id="rect432" transform="rotate(45,1263.4916,559.86829)"/>
   </g>
   <g id="checkbox-checked-normal" transform="translate(219.00002,157.63772)">
-    <g id="checkbox-unchecked-5-59" transform="translate(19)">
-      <g id="sdsd-7-54">
-        <g id="scdsdcd-5-8" transform="translate(0,-30)">
-          <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-          <g>
-            <rect style="fill:#{{ accent.hex }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g id="checkbox-checked-dark-7-37" transform="translate(36,-1036)">
-      <g transform="rotate(45,7.4999938,1026.3622)">
-        <g transform="translate(12.374375,11.531233)">
-          <g style="fill:#{{ surface0.hex }}" transform="translate(-3,-4.9999826)">
-            <rect style="fill:#{{ base.hex }}" width="5" height="2" x="8" y="1033.36" rx=".667" ry=".667"/>
-            <rect style="fill:#{{ base.hex }}" width="2" height="8" x="11" y="1027.36" ry="0"/>
-          </g>
-          <rect style="fill:#{{ text.hex }};fill-opacity:0" width="3" height="1" x="5" y="-8" transform="translate(0,1036.3622)"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect435" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ accent.hex }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2" id="rect436" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ base.hex }};display:inline" width="5" height="2" x="8" y="1033.36" rx="0.667" ry="0.667" id="rect437" transform="rotate(45,1263.4916,559.86829)"/>
+    <rect style="fill:#{{ base.hex }};display:inline" width="2" height="8" x="11" y="1027.36" ry="0" id="rect438" transform="rotate(45,1263.4916,559.86829)"/>
   </g>
   <g id="checkbox-tristate-focused" transform="translate(299,157.63782)">
-    <g transform="translate(19)">
-      <g>
-        <g transform="translate(0,-30)">
-          <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-          <g>
-            <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g transform="translate(36,-1036)">
-      <g transform="rotate(45,7.4999938,1026.3622)">
-        <g transform="translate(12.374375,11.531233)">
-          <g style="fill:#{{ surface0.hex }}" transform="translate(-3,-4.9999826)">
-            <rect style="fill:#{{ base.hex }}" width="2" height="8" x="-738.8" y="-725.96" ry="0" transform="rotate(-135)"/>
-          </g>
-          <rect style="fill:#{{ text.hex }};fill-opacity:0" width="3" height="1" x="5" y="-8" transform="translate(0,1036.3622)"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect440" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ base | mix(color=accent, amount=0.1) | get(key="hex") }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2" id="rect441" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ base.hex }}" width="2" height="8" x="-738.8" y="-725.96" ry="0" transform="rotate(-90,18.25648,-747.69828)" id="rect444"/>
   </g>
   <g id="checkbox-tristate-normal" transform="translate(284.00001,157.63781)">
-    <g id="checkbox-unchecked-5-4-5" transform="translate(19)">
-      <g id="sdsd-7-0-0">
-        <g id="scdsdcd-5-2-0" transform="translate(0,-30)">
-          <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-          <g>
-            <rect style="fill:#{{ accent.hex }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g id="checkbox-checked-dark-7-9-3" transform="translate(36,-1036)">
-      <g transform="rotate(45,7.4999938,1026.3622)">
-        <g transform="translate(12.374375,11.531233)">
-          <g style="fill:#{{ surface0.hex }}" transform="translate(-3,-4.9999826)">
-            <rect style="fill:#{{ base.hex }}" width="2" height="8" x="-738.8" y="-725.96" ry="0" transform="rotate(-135)"/>
-          </g>
-          <rect style="fill:#{{ text.hex }};fill-opacity:0" width="3" height="1" x="5" y="-8" transform="translate(0,1036.3622)"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect448" transform="translate(19,-30)"/>
+    <rect style="fill:#{{ accent.hex }};stroke:#000000;stroke-width:0;stroke-linejoin:round" width="14" height="14" x="18" y="31.36" rx="2" ry="2" id="rect449" transform="translate(19,-30)"/>
+    <rect style="display:inline;fill:#{{ base.hex }}" width="2" height="8" x="-738.79999" y="-725.96002" ry="0" transform="rotate(-90,18.25648,-747.69828)" id="rect450"/>
   </g>
   <g id="checkbox-focused" transform="translate(171,157.63782)">
-    <g>
-      <g transform="translate(0,-30)">
-        <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-        <g>
-          <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.2;stroke-linejoin:round" width="13" height="13" x="18.5" y="31.86" rx="2" ry="2"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect452" transform="translate(0,-30)"/>
+    <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.2;stroke-linejoin:round" width="13" height="13" x="18.5" y="31.86" rx="2" ry="2" id="rect453" transform="translate(0,-30)"/>
   </g>
   <g id="checkbox-normal" transform="translate(155,157.63782)">
-    <g id="sdsd-0-1">
-      <g id="scdsdcd-0-4" transform="translate(0,-30)">
-        <rect style="fill:none" width="16" height="16" x="17" y="30.36"/>
-        <g>
-          <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-linejoin:round" width="13" height="13" x="18.5" y="31.86" rx="2" ry="2"/>
-        </g>
-      </g>
-    </g>
+    <rect style="fill:none" width="16" height="16" x="17" y="30.36" id="rect455" transform="translate(0,-30)"/>
+    <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-linejoin:round" width="13" height="13" x="18.5" y="31.86" rx="2" ry="2" id="rect456" transform="translate(0,-30)"/>
   </g>
   <g id="carrow-disabled" transform="rotate(90,301.20178,394.23647)">
     <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
