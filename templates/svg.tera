@@ -271,12 +271,12 @@ whiskers:
     <path style="fill:#{{ surface0.hex }}" transform="scale(-1)" d="m 719.64995,-779.58405 a 7.9479218,2.8437526 0 0 1 -7.94792,2.84376 v -2.84376 z"/>
   </g>
   <use id="tabframe-normal-bottomright" width="100%" height="100%" x="0" y="0" transform="rotate(180,579.50016,291.99983)" xlink:href="#tabframe-normal-topleft"/>
-  <g id="tabframe-normal-bottom" transform="matrix(0,-0.8,0.98461538,0,237.49862,936.4999)">
+  <g id="tabframe-normal-bottom" transform="matrix(0,-0.8,0.98461538,0,515.49863,328.99968)">
     <path style="opacity:0.00100002;fill-rule:evenodd" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.2499 v -32.5 z"/>
   </g>
   <use id="tabframe-normal-bottomleft" width="100%" height="100%" x="0" y="0" transform="matrix(1,0,0,-1,-1.765625e-8,583.9997)" xlink:href="#tabframe-normal-topleft"/>
-  <g id="tabframe-normal-right" transform="matrix(-0.8,0,0,-0.98461538,338.5,963.50158)">
+  <g id="tabframe-normal-right" transform="matrix(-0.8,0,0,-0.98461538,616.50001,356.00136)">
     <path style="opacity:0.00100002;fill-rule:evenodd" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.25 v -32.5 z"/>
   </g>
