@@ -123,37 +123,6 @@ kinetic_scrolling=false
 noninteger_translucency=false
 blur_only_active_window=false
 
-[ItemView]
-inherits=PanelButtonCommand
-frame.element=itemview
-interior.element=itemview
-frame=true
-interior=true
-text.iconspacing=3
-text.press.color=#{{ text.hex }}
-text.toggle.color=#{{ text.hex }}
-
-[RadioButton]
-inherits=PanelButtonCommand
-frame=false
-interior.element=radio
-
-[CheckBox]
-inherits=PanelButtonCommand
-frame=false
-interior.element=checkbox
-
-[TreeExpander]
-indicator.element=tree
-indicator.size=8
-
-[ToolTip]
-frame.top=4
-frame.right=4
-frame.bottom=4
-frame.left=4
-frame=true
-
 [PanelButtonCommand]
 inherits=PanelButtonCommand
 interior.element=button
@@ -166,6 +135,12 @@ text.toggle.color=#{{ text.hex }}
 [PanelButtonTool]
 inherits=PanelButtonCommand
 
+[Dock]
+interior.element=toolbar
+frame.element=toolbar
+frame=true
+interior=true
+
 [DockTitle]
 inherits=PanelButtonCommand
 interior=false
@@ -176,17 +151,25 @@ text.margin.left=5
 text.margin.right=5
 indicator.size=0
 
-[Dock]
-interior.element=toolbar
-frame.element=toolbar
-frame=true
-interior=true
+[IndicatorSpinBox]
+inherits=LineEdit
+frame.element=lineedit
+interior.element=lineedit
+frame.top=0
+frame.bottom=2
+frame.left=2
+frame.right=2
+indicator.size=8
 
-[GroupBox]
+[RadioButton]
 inherits=PanelButtonCommand
-interior.element=tabframe
-interior=true
 frame=false
+interior.element=radio
+
+[CheckBox]
+inherits=PanelButtonCommand
+frame=false
+interior.element=checkbox
 
 [Focus]
 inherits=PanelButtonCommand
@@ -206,37 +189,10 @@ frame.bottom=1
 frame.left=1
 frame.right=1
 
-[Slider]
-inherits=PanelButtonCommand
-interior=true
-frame.element=slider
-interior.element=slider
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
-focusFrame=true
-
-[SliderCursor]
-inherits=PanelButtonCommand
-interior=true
-interior.element=slidercursor
-frame=false
-
 [LineEdit]
 inherits=PanelButtonCommand
 frame.element=lineedit
 interior.element=lineedit
-
-[IndicatorSpinBox]
-inherits=LineEdit
-frame.element=lineedit
-interior.element=lineedit
-frame.top=0
-frame.bottom=2
-frame.left=2
-frame.right=2
-indicator.size=8
 
 [DropDownButton]
 inherits=PanelButtonCommand
@@ -272,6 +228,11 @@ text.press.color=#{{ text.hex }}
 text.toggle.color=#{{ text.hex }}
 focusFrame=true
 
+[TabFrame]
+inherits=PanelButtonCommand
+frame.element=tabframe
+interior.element=tabframe
+
 [TabBarFrame]
 inherits=GenericFrame
 frame=true
@@ -282,20 +243,9 @@ frame.bottom=4
 frame.left=4
 frame.right=4
 
-[TabFrame]
-inherits=PanelButtonCommand
-frame.element=tabframe
-interior.element=tabframe
-
-[Dialog]
-inherits=TabBarFrame
-frame.element=tabframe
-interior=false
-frame=false
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
+[TreeExpander]
+indicator.element=tree
+indicator.size=8
 
 [HeaderSection]
 inherits=PanelButtonCommand
@@ -333,15 +283,6 @@ text.press.color=#{{ accent.hex }}
 text.toggle.color=#{{ accent.hex }}
 text.bold=false
 
-[MenuBar]
-inherits=PanelButtonCommand
-frame.element=menubar
-interior.element=menubar
-frame.bottom=0
-text.normal.color=#{{ text.hex }}
-frame.expansion=0
-text.bold=false
-
 [ToolbarButton]
 frame.element=tbutton
 interior.element=tbutton
@@ -376,15 +317,22 @@ frame.bottom=4
 frame.left=4
 frame.right=4
 
-[ProgressbarContents]
+[Slider]
 inherits=PanelButtonCommand
-frame=true
-frame.element=progress-pattern
-interior.element=progress-pattern
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+interior=true
+frame.element=slider
+interior.element=slider
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
+focusFrame=true
+
+[SliderCursor]
+inherits=PanelButtonCommand
+interior=true
+interior.element=slidercursor
+frame=false
 
 [Progressbar]
 inherits=PanelButtonCommand
@@ -401,6 +349,26 @@ text.press.color=#{{ mantle.hex }}
 text.toggle.color=#{{ mantle.hex }}
 text.bold=false
 frame.expansion=18
+
+[ProgressbarContents]
+inherits=PanelButtonCommand
+frame=true
+frame.element=progress-pattern
+interior.element=progress-pattern
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+
+[ItemView]
+inherits=PanelButtonCommand
+frame.element=itemview
+interior.element=itemview
+frame=true
+interior=true
+text.iconspacing=3
+text.press.color=#{{ text.hex }}
+text.toggle.color=#{{ text.hex }}
 
 [Menu]
 frame.element=menu
@@ -424,6 +392,15 @@ frame.right=10
 frame.left=10
 text.focus.color=#{{ text.hex }}
 text.press.color=#{{ text.hex }}
+
+[MenuBar]
+inherits=PanelButtonCommand
+frame.element=menubar
+interior.element=menubar
+frame.bottom=0
+text.normal.color=#{{ text.hex }}
+frame.expansion=0
+text.bold=false
 
 [MenuBarItem]
 inherits=PanelButtonCommand
@@ -457,6 +434,19 @@ text.margin.right=3
 text.press.color=#{{ text.hex }}
 text.toggle.color=#{{ text.hex }}
 
+[GroupBox]
+inherits=PanelButtonCommand
+interior.element=tabframe
+interior=true
+frame=false
+
+[ToolTip]
+frame.top=4
+frame.right=4
+frame.bottom=4
+frame.left=4
+frame=true
+
 [Window]
 interior=true
 interior.element=window
@@ -464,3 +454,13 @@ frame.top=0
 frame.bottom=0
 frame.left=0
 frame.right=0
+
+[Dialog]
+inherits=TabBarFrame
+frame.element=tabframe
+interior=false
+frame=false
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
