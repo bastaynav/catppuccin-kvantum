@@ -1233,31 +1233,13 @@ whiskers:
     <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
     <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
   </g>
-  <g id="button-toggled-bottomright" transform="matrix(-0.8,0,0,-0.8,321,89.001276)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876595 c -4.125,-5.1e-5 -6.874905,2.749975 -6.874875,6.875005 H 28.75 Z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="button-toggled-bottom" transform="matrix(0,-0.8,-0.98461538,0,346.00158,72.999996)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.875005 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="button-toggled-bottomleft" transform="matrix(0.8,0,0,-0.8,243,89.001276)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876595 c -4.125,-5.1e-5 -6.875155,2.749975 -6.875125,6.875005 H 28.75 Z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="button-toggled-right" transform="matrix(-0.8,0,0,0.98461538,321.0002,-30.00158)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.874875 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
+  <use xlink:href="#button-toggled-topleft" id="button-toggled-bottonright" transform="rotate(180,282,34)"/>
+  <use xlink:href="#button-toggled-top" id="button-toggled-bottom" transform="rotate(180,282,34)"/>
+  <use xlink:href="#button-toggled-topleft" id="button-toggled-bottomleft" transform="rotate(-90,282,34)"/>
+  <use xlink:href="#button-toggled-top" id="button-toggled-right" transform="rotate(90,282,34)"/>
   <path id="button-toggled" style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 266.0002,17.999997 v 31.999999 h 32 V 17.999997 Z"/>
-  <g id="button-toggled-left" transform="matrix(0.8,0,0,0.98461538,243.0002,-30.001575)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.875125 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="button-toggled-topright" transform="matrix(-0.8,0,0,0.8,321.0002,-21.001285)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876606 c -4.125,-5.1e-5 -6.874905,2.749964 -6.874875,6.874994 H 28.75 Z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
+  <use xlink:href="#button-toggled-top" id="button-toggled-left" transform="rotate(-90,282,34)"/>
+  <use xlink:href="#button-toggled-topleft" id="button-toggled-topright" transform="rotate(90,282,34)"/>
   <g id="button-toggled-top" transform="matrix(0,0.8,-0.98461538,0,346.00178,-5.0000047)">
     <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.874994 v 32.5 z"/>
     <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
