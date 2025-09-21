@@ -1299,36 +1299,18 @@ whiskers:
     <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876606 c -4.125,-5.1e-5 -6.875155,2.749964 -6.875125,6.874994 H 28.75 Z"/>
     <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
   </g>
-  <g id="button-focused-bottomright" transform="matrix(-0.8,0,0,-0.8,229,89.001276)">
-    <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="button-focused-bottom" transform="matrix(0,-0.8,-0.98461538,0,254.00158,72.999996)">
-    <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="button-focused-bottomleft" transform="matrix(0.8,0,0,-0.8,151,89.001276)">
-    <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="button-focused-right" transform="matrix(-0.8,0,0,0.98461538,229.0002,-30.00158)">
-    <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
+  <use xlink:href="#button-focused-topleft" id="button-focused-bottomright" transform="rotate(180,190,34)"/>
+  <use xlink:href="#button-focused-top" id="button-focused-bottom" transform="rotate(180,190,34)"/>
+  <use xlink:href="#button-focused-topleft" id="button-focused-bottomleft" transform="rotate(-90,190,34)"/>
+  <use xlink:href="#button-focused-top" id="button-focused-right" transform="rotate(90,190,34)"/>
   <path id="button-focused" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 174.0002,17.999997 v 31.999999 h 32 V 17.999997 Z"/>
-  <g id="button-focused-left" transform="matrix(0.8,0,0,0.98461538,151.0002,-30.001575)">
-    <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="button-focused-topright" transform="matrix(-0.8,0,0,0.8,229.0002,-21.001285)">
-    <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="button-focused-top" transform="matrix(0,0.8,-0.98461538,0,254.00178,-5.0000047)">
+  <use xlink:href="#button-focused-top" id="button-focused-left" transform="rotate(-90,190,34)"/>
+  <use xlink:href="#button-focused-topleft" id="button-focused-topright" transform="rotate(90,190,34)"/>
+  <g id="button-focused-top" transform="matrix(0,0.8,-0.98461538,0,254.00178,-5)">
     <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
     <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
   </g>
-  <g id="button-focused-topleft" transform="matrix(0.8,0,0,0.8,151.0002,-21.001285)">
+  <g id="button-focused-topleft" transform="matrix(0.8,0,0,0.8,151,-21.00128)">
     <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
     <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
   </g>
