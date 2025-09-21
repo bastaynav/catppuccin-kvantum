@@ -24,7 +24,6 @@ check_size=16
 slider_width=4
 slider_handle_width=18
 slider_handle_length=18
-textless_progressbar=false
 menubar_mouse_tracking=true
 slim_toolbars=false
 toolbutton_style=1
@@ -105,11 +104,9 @@ link.visited.color=#{{ accent | mix(color=text, amount=0.8) | get(key="hex") }}
 
 [Hacks]
 transparent_dolphin_view=false
-blur_konsole=true
 transparent_ktitle_label=true
 transparent_menutitle=true
 respect_darkness=true
-kcapacitybar_as_progressbar=true
 force_size_grip=false
 iconless_pushbutton=true
 iconless_menu=false
