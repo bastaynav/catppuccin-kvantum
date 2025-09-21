@@ -434,15 +434,6 @@ text.margin.bottom=3
 text.margin.left=5
 text.margin.right=5
 
-[StatusBar]
-inherits=Toolbar
-frame.element=toolbar
-font.bold=true
-text.normal.color=#{{ text.hex }}
-frame=true
-frame.top=0
-frame.bottom=0
-
 [TitleBar]
 inherits=PanelButtonCommand
 frame=false
