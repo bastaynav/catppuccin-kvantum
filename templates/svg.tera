@@ -1449,26 +1449,11 @@ whiskers:
     <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
     <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
   </g>
-  <g id="arrow-left-disabled" transform="rotate(180,149.21912,391.5173)">
-    <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
-    <path style="opacity:0.3;fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
-  </g>
-  <g id="arrow-left-toggled" transform="rotate(180,144.21912,391.5173)">
-    <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
-    <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
-  </g>
-  <g id="arrow-left-pressed" transform="rotate(180,139.21912,391.5173)">
-    <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
-    <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
-  </g>
-  <g id="arrow-left-focused" transform="rotate(180,134.21912,391.5173)">
-    <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
-    <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
-  </g>
-  <g id="arrow-left-normal" transform="rotate(180,129.21912,391.5173)">
-    <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
-    <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
-  </g>
+  <use xlink:href="#arrow-up-disabled" id="arrow-left-disabled" transform="rotate(-90,102.93823,255.53463)"/>
+  <use xlink:href="#arrow-up-toggled" id="arrow-left-toggled" transform="rotate(-90,92.93823,255.53463)"/>
+  <use xlink:href="#arrow-up-pressed" id="arrow-left-pressed" transform="rotate(-90,82.93823,255.53463)"/>
+  <use xlink:href="#arrow-up-focused" id="arrow-left-focused" transform="rotate(-90,72.93823,255.53463)"/>
+  <use xlink:href="#arrow-up-normal" id="arrow-left-normal" transform="rotate(-90,62.93823,255.53462)"/>
   <use xlink:href="#arrow-up-disabled" id="arrow-down-disabled" transform="rotate(180,108.43825,266.03463)"/>
   <use xlink:href="#arrow-up-toggled" id="arrow-down-toggled" transform="rotate(180,98.43825,266.03463)"/>
   <use xlink:href="#arrow-up-pressed" id="arrow-down-pressed" transform="rotate(180,88.43825,266.03463)"/>
