@@ -402,9 +402,6 @@ text.toggle.color=#{{ mantle.hex }}
 text.bold=false
 frame.expansion=18
 
-[RadioButton]
-inherits=PanelButtonCommand
-
 [Menu]
 frame.element=menu
 interior.element=menu
