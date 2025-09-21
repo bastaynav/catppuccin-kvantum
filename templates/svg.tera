@@ -1266,31 +1266,13 @@ whiskers:
     <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876606 c -4.125,-5.1e-5 -6.875155,2.749964 -6.875125,6.874994 H 28.75 Z"/>
     <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
   </g>
-  <g id="button-pressed-bottomright" transform="matrix(-0.8,0,0,-0.8,275,89.001276)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876595 c -4.125,-5.1e-5 -6.874905,2.749975 -6.874875,6.875005 H 28.75 Z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="button-pressed-bottom" transform="matrix(0,-0.8,-0.98461538,0,300.00158,72.999996)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.875005 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="button-pressed-bottomleft" transform="matrix(0.8,0,0,-0.8,197,89.001276)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876595 c -4.125,-5.1e-5 -6.875155,2.749975 -6.875125,6.875005 H 28.75 Z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="button-pressed-right" transform="matrix(-0.8,0,0,0.98461538,275.0002,-30.00158)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.874875 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
+  <use xlink:href="#button-pressed-topleft" id="button-pressed-bottomright" transform="rotate(180,236,34)"/>
+  <use xlink:href="#button-pressed-top" id="button-pressed-bottom" transform="rotate(180,236,34)"/>
+  <use xlink:href="#button-pressed-topleft" id="button-pressed-bottomleft" transform="rotate(-90,236,34)"/>
+  <use xlink:href="#button-pressed-top" id="button-pressed-right" transform="rotate(90,236,34)"/>
   <path id="button-pressed" style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 220.0002,17.999997 v 31.999999 h 32 V 17.999997 Z"/>
-  <g id="button-pressed-left" transform="matrix(0.8,0,0,0.98461538,197.0002,-30.001575)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.875125 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="button-pressed-topright" transform="matrix(-0.8,0,0,0.8,275.0002,-21.001285)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="m 28.75,41.876606 c -4.125,-5.1e-5 -6.874905,2.749964 -6.874875,6.874994 H 28.75 Z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
+  <use xlink:href="#button-pressed-top" id="button-pressed-left" transform="rotate(-90,236,34)"/>
+  <use xlink:href="#button-pressed-topleft" id="button-pressed-topright" transform="rotate(90,236,34)"/>
   <g id="button-pressed-top" transform="matrix(0,0.8,-0.98461538,0,300.00178,-5.0000047)">
     <path style="opacity:0.3;fill:#{{ accent.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -6.874994 v 32.5 z"/>
     <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
