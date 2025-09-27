@@ -658,13 +658,13 @@ whiskers:
     <rect style="opacity:0;fill:#141414" width="7" height="9" x="686.5" y="-229.5" transform="rotate(90)"/>
     <path style="fill:#{{ surface0.hex }}" d="m 227.2385,689 h -2.2462 v 2 h 2.2462 z m -4.4924,0 H 220.5 v 2 h 2.2461 z"/>
   </g>
-  <path id="menuitem-normal-bottomright" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 736,79 h 4 v 4 h -4 z"/>
-  <path id="menuitem-normal-bottom" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 728,79 h 8 v 4 h -8 z"/>
-  <path id="menuitem-normal-bottomleft" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 724,79 h 4 v 4 h -4 z"/>
-  <path id="menuitem-normal-left" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 724,71 h 4 v 8 h -4 z"/>
+  <use xlink:href="#menuitem-normal-topleft" id="menuitem-normal-bottomright" transform="translate(12,12)"/>
+  <use xlink:href="#menuitem-normal-top" id="menuitem-normal-bottom" transform="translate(0,12)"/>
+  <use xlink:href="#menuitem-normal-topleft" id="menuitem-normal-bottomleft" transform="translate(0,12)"/>
+  <use xlink:href="#menuitem-normal-top" id="menuitem-normal-right" transform="rotate(90,732,75)"/>
   <path id="menuitem-normal" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 728,71 h 8 v 8 h -8 z"/>
-  <path id="menuitem-normal-right" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 736,71 h 4 v 8 h -4 z"/>
-  <path id="menuitem-normal-topright" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 736,67 h 4 v 4 h -4 z"/>
+  <use xlink:href="#menuitem-normal-top" id="menuitem-normal-left" transform="rotate(-90,732,75)"/>
+  <use xlink:href="#menuitem-normal-topleft" id="menuitem-normal-topright" transform="translate(12)"/>
   <path id="menuitem-normal-top" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 728,67 h 8 v 4 h -8 z"/>
   <path id="menuitem-normal-topleft" style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 724,67 h 4 v 4 h -4 z"/>
   <rect id="menubaritem-toggled" style="opacity:0.1;fill:#{{ text.hex }}" width="30" height="10" x="765.88" y="155.14"/>
