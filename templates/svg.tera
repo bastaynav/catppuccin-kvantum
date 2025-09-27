@@ -451,31 +451,16 @@ whiskers:
   <path id="slider-normal-left" style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 487,20.999806 v 15.90885 0.0911 h 12 v -15.99971 h -12 z"/>
   <path id="slider-normal-topright" style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 499,8.9997562 c 6.648,0 12,5.3519998 12,11.9999998 h -12 z"/>
   <path id="slider-normal-topleft" style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 499,8.9997562 c -6.648,0 -12,5.3519998 -12,11.9999998 h 12 z"/>
-  <g id="scrollbarslider-pressed-bottomright" transform="matrix(0.75,0,0,0.75,250.25,467.24976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="4" height="4" x="26" y="75" transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-83)"/>
-    <path style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
-  </g>
-  <g id="scrollbarslider-pressed-bottom" transform="matrix(0,0.75,-0.1,0,256.7,473.24976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="1" height="4" x="24" y="75" transform="matrix(0,-10,1.3333333,0,-91,257)"/>
-    <path style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
-  </g>
-  <g id="scrollbarslider-pressed-bottomleft" transform="matrix(-0.75,0,0,0.75,260.75,467.24976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="4" height="4" x="19" y="75" transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-83)"/>
-    <path style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
-  </g>
-  <g id="scrollbarslider-pressed-right" transform="matrix(0.75,0,0,1,250.25,461.99976)">
-    <path style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="1" height="10" x="29" y="64" transform="matrix(1.3333333,0,0,1,-25.666667,-57)"/>
-  </g>
+  <use xlink:href="#scrollbarslider-pressed-topleft" id="scrollbarslider-pressed-bottomright" transform="rotate(180,255.5,474)"/>
+  <use xlink:href="#scrollbarslider-pressed-top" id="scrollbarslider-pressed-bottom" transform="rotate(180,255.5,474)"/>
+  <use xlink:href="#scrollbarslider-pressed-topleft" id="scrollbarslider-pressed-bottomleft" transform="rotate(-90,260,474)"/>
+  <use xlink:href="#scrollbarslider-pressed-left" id="scrollbarslider-pressed-right" transform="rotate(180,255.5,474)"/>
   <rect id="scrollbarslider-pressed" style="fill:#{{ accent.hex }}" width="1" height="10" x="255" y="469"/>
   <g id="scrollbarslider-pressed-left" transform="matrix(-0.75,0,0,1,260.75,461.99976)">
     <path style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
     <rect style="opacity:0;fill:#{{ surface1.hex }}" width="1" height="10" x="19" y="64" transform="matrix(-1.3333333,0,0,1,39.666667,-57)"/>
   </g>
-  <g id="scrollbarslider-pressed-topright" transform="matrix(0.75,0,0,0.75,250.25,462.74976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="4" height="4" x="26" y="59" transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-77)"/>
-    <path style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"/>
-  </g>
+  <use xlink:href="#scrollbarslider-pressed-topleft" id="scrollbarslider-pressed-topright" transform="rotate(90,255.5,469.5)"/>
   <g id="scrollbarslider-pressed-top" transform="matrix(0,-0.75,-0.1,0,256.7,474.74976)">
     <rect style="opacity:0;fill:#{{ surface1.hex }}" width="1" height="4" x="24" y="59" transform="matrix(0,-10,-1.3333333,0,93,257)"/>
     <path style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
