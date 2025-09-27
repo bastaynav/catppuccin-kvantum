@@ -693,9 +693,9 @@ whiskers:
   <rect id="menubar-normal-topright" style="fill:#{{ mantle.hex }}" width="5" height="5" x="197" y="-820" transform="rotate(90)"/>
   <rect id="menubar-normal-top" style="fill:#{{ mantle.hex }}" width="20" height="5" x="795" y="197"/>
   <rect id="menubar-normal-topleft" style="fill:#{{ mantle.hex }}" width="5" height="5" x="197" y="-795" transform="rotate(90)"/>
-  <path id="menu-shadow-hint-left" style="fill:#{{ mauve.hex }}" d="m 532.00002,163 v -2 h 6 v 2 z"/>
-  <path id="menu-shadow-hint-bottom" style="fill:#{{ mauve.hex }}" d="m 564.00002,188 h 2 v 6 h -2 z"/>
-  <path id="menu-shadow-hint-right" style="fill:#{{ mauve.hex }}" d="m 592,163.49376 v -2 h 6 v 2 z"/>
+  <use xlink:href="#menu-shadow-hint-top" id="menu-shadow-hint-left" transform="rotate(-90,564,163)"/>
+  <use xlink:href="#menu-shadow-hint-top" id="menu-shadow-hint-bottom" transform="rotate(180,565,162.5)"/>
+  <use xlink:href="#menu-shadow-hint-top" id="menu-shadow-hint-right" transform="rotate(90,565.75313,163.24687)"/>
   <path id="menu-shadow-hint-top" style="fill:#{{ mauve.hex }}" d="m 564.00002,131 h 2 v 6 h -2 z"/>
   <g id="menu-shadow-bottomright" transform="translate(17.00002,-189)">
     <path style="opacity:0.3;fill:url(#radialGradient11179)" d="m 571,373 h 10 v 10 h -10 z"/>
