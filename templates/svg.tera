@@ -270,22 +270,13 @@ whiskers:
     <path style="fill:#{{ mantle.hex }}" transform="scale(-1)" d="m 723.0562,-779.58405 a 11.354174,4.0625038 0 0 1 -11.35417,4.06251 v -4.06251 z"/>
     <path style="fill:#{{ surface0.hex }}" transform="scale(-1)" d="m 719.64995,-779.58405 a 7.9479218,2.8437526 0 0 1 -7.94792,2.84376 v -2.84376 z"/>
   </g>
-  <use id="tabframe-normal-bottomright" width="100%" height="100%" x="0" y="0" transform="rotate(180,579.50016,291.99983)" xlink:href="#tabframe-normal-topleft"/>
-  <g id="tabframe-normal-bottom" transform="matrix(0,-0.8,0.98461538,0,515.49863,328.99968)">
-    <path style="opacity:0.00100002;fill-rule:evenodd" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.2499 v -32.5 z"/>
-  </g>
-  <use id="tabframe-normal-bottomleft" width="100%" height="100%" x="0" y="0" transform="matrix(1,0,0,-1,-1.765625e-8,583.9997)" xlink:href="#tabframe-normal-topleft"/>
-  <g id="tabframe-normal-right" transform="matrix(-0.8,0,0,-0.98461538,616.50001,356.00136)">
-    <path style="opacity:0.00100002;fill-rule:evenodd" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.25 v -32.5 z"/>
-  </g>
+  <use xlink:href="#tabframe-normal-topleft" id="tabframe-normal-bottomright" transform="rotate(180,579.5,292)"/>
+  <use xlink:href="#tabframe-normal-top" id="tabframe-normal-bottom" transform="rotate(180,579.5,292)"/>
+  <use xlink:href="#tabframe-normal-topleft" id="tabframe-normal-bottomleft" transform="rotate(-90,579.5,292)"/>
+  <use xlink:href="#tabframe-normal-top" id="tabframe-normal-right" transform="rotate(90,579.5,292)"/>
   <path id="tabframe-normal" style="opacity:0.00100002;fill-rule:evenodd" d="m 563.50001,275.99988 v 32 h 32 v -32 z"/>
-  <g id="tabframe-normal-left" transform="matrix(0.8,0,0,0.98461538,542.50021,227.9983)">
-    <path style="opacity:0.00100002;fill-rule:evenodd" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.2497 v -32.5 z"/>
-  </g>
-  <use id="tabframe-normal-topright" width="100%" height="100%" x="0" y="0" transform="matrix(-1,0,0,1,1159.0003,-3.9218776e-8)" xlink:href="#tabframe-normal-topleft"/>
+  <use xlink:href="#tabframe-normal-top" id="tabframe-normal-left" transform="rotate(-90,579.5,292)"/>
+  <use xlink:href="#tabframe-normal-topleft" id="tabframe-normal-topright" transform="rotate(90,579.5,292)"/>
   <g id="tabframe-normal-top" transform="matrix(0,0.8,-0.98461538,0,643.50159,254.99988)">
     <path style="opacity:0.00100002;fill-rule:evenodd" d="M 26.25,81.2514 V 48.7516 h -5 v 32.5 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.25 v -32.5 z"/>
