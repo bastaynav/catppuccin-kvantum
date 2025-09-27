@@ -179,25 +179,15 @@ whiskers:
   <g id="tbutton-toggled-topleft" transform="matrix(0.44036669,0,0,1.2307681,555.40993,-324.52584)">
     <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.81250075,-1261.2442,263.65393)" d="m 242,629.99023 a 5,5.0000001 0 0 0 -5,5 h 1.5 3.5 v -3.5 z"/>
   </g>
-  <g id="tbutton-pressed-bottomright" transform="matrix(0.44036669,0,0,1.273756,506.99751,-354.48638)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.78507972,-1151.3076,278.27731)" d="m 214.23828,678.0293 v 3.5 1.5 a 5,5 0 0 0 5,-5 h -1.5 z"/>
-  </g>
-  <g id="tbutton-pressed-bottom" transform="matrix(0.84070004,0,0,1.2307681,773.14207,-319.64117)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(1.1894849,0,0,0.81250075,-919.64082,259.68513)" d="m 167.99805,678.02344 v 3.5 1.50195 h 46.23828 v -1.50195 -3.5 z"/>
-  </g>
-  <g id="tbutton-pressed-bottomleft" transform="matrix(0.44036669,0,0,1.2307681,488.12006,-316.37577)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.81250075,-1108.44,257.03199)" d="m 163,678.0293 a 5.0000005,5.0000001 0 0 0 5,5 v -1.5 -3.5 h -3.5 z"/>
-  </g>
-  <g id="tbutton-pressed-left" transform="matrix(0.44036669,0,0,2.0512769,484.97914,-984.77104)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.48750122,-1101.3075,480.06295)" d="m 163,634.94531 v 43.07813 H 164.50195 168 168.002 V 634.94531 H 168 164.50195 Z"/>
-  </g>
+  <use xlink:href="#tbutton-pressed-topleft" id="tbutton-pressed-bottomright" transform="rotate(180,191.11914,656.48078)"/>
+  <use xlink:href="#tbutton-pressed-top" id="tbutton-pressed-bottom" transform="rotate(180,191.11719,656.45832)"/>
+  <use xlink:href="#tbutton-pressed-topleft" id="tbutton-pressed-bottomleft" transform="rotate(-90,189.51954,656.48078)"/>
+  <use xlink:href="#tbutton-pressed-left" id="tbutton-pressed-right" transform="rotate(180,191.1205,656.45693)" x="0" y="0"/>
   <rect id="tbutton-pressed" style="opacity:0.3;fill:#{{ accent.hex }}" width="46.239" height="43.077" x="168" y="634.92"/>
-  <g id="tbutton-pressed-right" transform="matrix(0.30924086,0,0,2.0512769,420.32385,-984.73244)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(3.2337253,0,0,0.48750122,-1359.2119,480.04414)" d="m 214.24023,634.94336 v 43.07812 h 3.5 1.5 v -43.07812 h -1.5 z"/>
+  <g id="tbutton-pressed-left" transform="matrix(0.44036669,0,0,2.0512769,484.97914,-984.77104)">
+    <path style="opacity:0.3;fill:#8CAAEE" transform="matrix(2.2708348,0,0,0.48750122,-1101.3075,480.06295)" d="m 163,634.94531 v 43.07813 H 164.50195 168 168.002 V 634.94531 H 168 164.50195 Z" id="path63"/>
   </g>
-  <g id="tbutton-pressed-topright" transform="matrix(2.3414816,0,0,5,1770.872,-3262.9973)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(0.42708002,0,0,0.2,-756.30404,652.59366)" d="m 214.23828,629.95117 v 1.5 3.5 h 3.5 1.5 a 5,5 0 0 0 -5,-5 z"/>
-  </g>
+  <use xlink:href="#tbutton-pressed-topleft" id="tbutton-pressed-topright" transform="rotate(90,191.14355,658.05792)"/>
   <g id="tbutton-pressed-top" transform="matrix(0.84070004,0,0,1.2307681,773.14197,-324.56417)">
     <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(1.1894849,0,0,0.81250075,-919.6407,263.68508)" d="m 167.99805,629.94922 v 1.50195 3.5 h 46.23828 v -3.5 -1.50195 z"/>
   </g>
