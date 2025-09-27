@@ -838,37 +838,13 @@ whiskers:
     <rect style="opacity:0.00100002" width="16" height="16" x="135" y="428.03"/>
     <path style="fill:#{{ text.hex }}" d="m 140,432.0293 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 h 6 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 z m 0,3 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 h 6 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 z m 0,3 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 h 6 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 z"/>
   </g>
-  <g id="lineedit-focused-bottomright" transform="rotate(180,192,30.014496)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 175.9998,-52.971008 c -3.3,-4.1e-5 -6.00002,2.699976 -6,6 h 6 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 176,-52.971008 c -3.3,-4.1e-5 -6.00002,2.699976 -6,6 h 2 c 0,-2.5 1.5,-4 4,-4 z"/>
-    <path style="fill:#{{ accent.hex }}" d="m 176,-50.971008 c -2,0 -4,1 -4,4 h 2 c 0,-2 2,-2 2,-2 z"/>
-  </g>
-  <g id="lineedit-focused-bottom" transform="rotate(180,192,30.014496)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 176,-46.971008 h 31.9998 v -6 h -32 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 207.9998,-52.971008 h -32 v 2 h 32 z"/>
-    <path style="fill:#{{ accent.hex }}" d="m 176,-50.971008 h 32 v 2 h -32 z"/>
-  </g>
-  <g id="lineedit-focused-bottomleft" transform="rotate(-90,252.9854,30.014396)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 175.9998,-52.971008 c -3.3,-4.1e-5 -6.00002,2.699976 -6,6 h 6 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 176,-52.971008 c -3.3,-4.1e-5 -6.00002,2.699976 -6,6 h 2 c 0,-2.5 1.5,-4 4,-4 z"/>
-    <path style="fill:#{{ accent.hex }}" d="m 176,-50.971008 c -2,0 -4,1 -4,4 h 2 c 0,-2 2,-2 2,-2 z"/>
-  </g>
-  <g id="lineedit-focused-right" transform="rotate(90,131.0145,30.014496)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 176,-46.971008 h 31.9998 v -6 h -32 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 207.9998,-52.971008 h -32 v 2 h 32 z"/>
-    <path style="fill:#{{ accent.hex }}" d="m 176,-50.971008 h 32 v 2 h -32 z"/>
-  </g>
+  <use xlink:href="#lineedit-focused-topleft" id="lineedit-focused-bottomright" transform="rotate(180,192,91)"/>
+  <use xlink:href="#lineedit-focused-top" id="lineedit-focused-bottom" transform="rotate(180,192,91)"/>
+  <use xlink:href="#lineedit-focused-topleft" id="lineedit-focused-bottomleft" transform="rotate(-90,192,91)"/>
+  <use xlink:href="#lineedit-focused-top" id="lineedit-focused-right" transform="rotate(90,192,91)"/>
   <path id="lineedit-focused" style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="M 175.9998,75.000003 V 107 h 32 V 75.000003 Z"/>
-  <g id="lineedit-focused-left" transform="rotate(-90,252.9854,30.014396)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 176,-46.971008 h 31.9998 v -6 h -32 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 207.9998,-52.971008 h -32 v 2 h 32 z"/>
-    <path style="fill:#{{ accent.hex }}" d="m 176,-50.971008 h 32 v 2 h -32 z"/>
-  </g>
-  <g id="lineedit-focused-topright" transform="rotate(90,131.0145,30.014496)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 175.9998,-52.971008 c -3.3,-4.1e-5 -6.00002,2.699976 -6,6 h 6 z"/>
-    <path style="fill:#{{ mantle.hex }}" d="m 176,-52.971008 c -3.3,-4.1e-5 -6.00002,2.699976 -6,6 h 2 c 0,-2.5 1.5,-4 4,-4 z"/>
-    <path style="fill:#{{ accent.hex }}" d="m 176,-50.971008 c -2,0 -4,1 -4,4 h 2 c 0,-2 2,-2 2,-2 z"/>
-  </g>
+  <use xlink:href="#lineedit-focused-top" id="lineedit-focused-left" transform="rotate(-90,192,91)"/>
+  <use xlink:href="#lineedit-focused-topleft" id="lineedit-focused-topright" transform="rotate(90,192,91)"/>
   <g id="lineedit-focused-top" transform="translate(0,121.97101)">
     <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 176,-46.971008 h 31.9998 v -6 h -32 z"/>
     <path style="fill:#{{ mantle.hex }}" d="m 207.9998,-52.971008 h -32 v 2 h 32 z"/>
