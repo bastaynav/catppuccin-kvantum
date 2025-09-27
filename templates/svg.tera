@@ -97,10 +97,7 @@ whiskers:
     <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
     <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
   </g>
-  <g id="toolbar-normal-bottomright" transform="matrix(5.000004,0,0,1,-240.00022,-0.0289917)">
-    <path style="fill:#{{ mantle.hex }}" d="m 59.999996,131.02901 v 2.49999 2.49998 c 0.26796,0 1.000004,0 1.000004,0 0,0 -4e-6,-3.57838 -4e-6,-4.99997 h -0.5 z"/>
-    <path style="opacity:0.3" d="m 59.999996,135.02899 v 0.5 0.49999 c 0.26796,0 1.000004,0 1.000004,0 0,0 -4e-6,-0.71567 -4e-6,-0.99999 h -0.5 z"/>
-  </g>
+  <use xlink:href="#toolbar-normal-bottomleft" id="toolbar-normal-bottomright" transform="translate(51)"/>
   <g id="toolbar-normal-bottom" transform="translate(0,-0.0289917)">
     <path style="fill:#{{ mantle.hex }}" d="m 13.999999,131.02895 v 2.49998 2.49998 h 45.999999 v -2.49998 -2.49998 z"/>
     <path style="opacity:0.3" d="m 13.999999,135.02898 v 0.49999 0.5 h 45.999999 v -0.5 -0.49999 z"/>
@@ -109,10 +106,10 @@ whiskers:
     <path style="fill:#{{ mantle.hex }}" d="m 12.999997,131.02899 4e-6,4.99996 0.999996,2e-5 v -2.49999 -2.49999 h -0.501109 z"/>
     <path style="opacity:0.3" d="m 12.999997,135.02899 4e-6,0.99998 0.999996,1e-5 v -0.5 -0.49999 h -0.501109 z"/>
   </g>
-  <path style="fill:#{{ mantle.hex }}" d="m 59.99996,85.000002 h 2.49998 2.49998 V 131 h -2.49998 -2.49998 z" id="toolbar-normal-right"/>
+  <use xlink:href="#toolbar-normal-left" id="toolbar-normal-right" transform="rotate(180,37,108)"/>
   <rect id="toolbar-normal" style="fill:#{{ mantle.hex }}" width="46" height="46" x="14" y="85"/>
   <path style="fill:#{{ mantle.hex }}" d="m 14.000029,85 h -2.49998 -2.49998 v 46 h 2.49998 2.49998 z" id="toolbar-normal-left"/>
-  <path style="fill:#{{ mantle.hex }}" d="m 60,84 4.99996,4e-6 L 64.99998,85 H 62.49999 60 v -0.501109 z" id="toolbar-normal-topright"/>
+  <use xlink:href="#toolbar-normal-topleft" id="toolbar-normal-topright" transform="translate(51)"/>
   <path style="fill:#{{ mantle.hex }}" d="m 13.999995,84.000307 v 0.5 0.5 h 45.999998 v -0.5 -0.5 z" id="toolbar-normal-top"/>
   <path style="fill:#{{ mantle.hex }}" d="m 13.999989,83.999998 -4.99996,4e-6 -2e-5,0.999996 h 2.49999 2.49999 v -0.501109 z" id="toolbar-normal-topleft"/>
   <g id="toolbar-handle" transform="matrix(2.4000001,0,0,1,-869.0001,-19.028994)">
