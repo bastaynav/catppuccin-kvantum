@@ -952,13 +952,13 @@ whiskers:
   <path style="opacity:0.3" d="m 464.99998,511.0024 c 1.10161,0 0.99736,-0.10427 0.99736,0.99736 h -0.99736 z" id="header-focused-topright"/>
   <path style="opacity:0.3" d="m 424.00043,511.99975 h 40 v -1.00005 h -40 z" id="header-focused-top"/>
   <path style="opacity:0.3" d="m 423,511.00241 c -1.10167,0 -0.99736,-0.10427 -0.99736,0.99736 H 423 Z" id="header-focused-topleft"/>
-  <path style="opacity:0.3" d="m 511.99998,554.9971 c 1.10161,0 0.99736,0.10447 0.99736,-0.99735 h -0.99736 z" id="header-normal-bottomright"/>
-  <path style="opacity:0.3" d="m 471.00043,553.9999 h 40 v 0.99986 h -40 z" id="header-normal-bottom"/>
-  <path style="opacity:0.3" d="m 470,554.9971 c -1.10167,0 -0.99736,0.10447 -0.99736,-0.99735 H 470 Z" id="header-normal-bottomleft"/>
-  <path style="opacity:0.00100002" d="m 512.00002,512.99979 v 40 h 1.00004 v -40 z" id="header-normal-right"/>
+  <use xlink:href="#header-normal-topleft" id="header-normal-bottomright" transform="rotate(180,491,533)"/>
+  <use xlink:href="#header-normal-top" id="header-normal-bottom" transform="rotate(180,491,533)"/>
+  <use xlink:href="#header-normal-topleft" id="header-normal-bottomleft" transform="rotate(-90,491,533)"/>
+  <use xlink:href="#header-normal-left" id="header-normal-right" transform="rotate(180,491,533)"/>
   <rect id="header-normal" style="fill:#{{ mantle.hex }}" width="40" height="40" x="471" y="-553" transform="scale(1,-1)"/>
   <path style="opacity:0.00100002" d="m 469.99998,552.9997 v -40 H 469 v 40 z" id="header-normal-left"/>
-  <path style="opacity:0.3" d="m 511.99998,511.0024 c 1.10161,0 0.99736,-0.10427 0.99736,0.99736 h -0.99736 z" id="header-normal-topright"/>
+  <use xlink:href="#header-normal-topleft" id="header-normal-topright" transform="rotate(90,491,533)"/>
   <path style="opacity:0.3" d="m 471.00043,511.99975 h 40 v -1.00005 h -40 z" id="header-normal-top"/>
   <path style="opacity:0.3" d="m 470,511.00241 c -1.10167,0 -0.99736,-0.10427 -0.99736,0.99736 H 470 Z" id="header-normal-topleft"/>
   <g id="harrow-up-disabled" transform="rotate(-90,76.5,447.49999)">
