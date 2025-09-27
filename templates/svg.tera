@@ -879,31 +879,13 @@ whiskers:
     <path style="fill:#{{ mantle.hex }}" d="m 176,-52.971008 c -3.3,-4.1e-5 -6.00002,2.699976 -6,6 h 2 c 0,-2.5 1.5,-4 4,-4 z"/>
     <path style="fill:#{{ accent.hex }}" d="m 176,-50.971008 c -2,0 -4,1 -4,4 h 2 c 0,-2 2,-2 2,-2 z"/>
   </g>
-  <g id="lineedit-normal-bottomright" transform="matrix(-0.8,0,0,-0.8,182.9998,146.00128)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="lineedit-normal-bottom" transform="matrix(0,-0.8,-0.98461538,0,208.00138,130)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="lineedit-normal-bottomleft" transform="matrix(0.8,0,0,-0.8,104.9998,146.00128)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
-  <g id="lineedit-normal-right" transform="matrix(-0.8,0,0,0.98461538,183,26.998425)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
+  <use xlink:href="#lineedit-normal-topleft" id="lineedit-normal-bottomright" transform="rotate(180,144,91)"/>
+  <use xlink:href="#lineedit-normal-top" id="lineedit-normal-bottom" transform="rotate(180,144,91)"/>
+  <use xlink:href="#lineedit-normal-topleft" id="lineedit-normal-bottomleft" transform="rotate(-90,144,91)"/>
+  <use xlink:href="#lineedit-normal-top" id="lineedit-normal-right" transform="rotate(90,144,91)"/>
   <path id="lineedit-normal" style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="M 128,75.000002 V 107 h 32 V 75.000002 Z"/>
-  <g id="lineedit-normal-left" transform="matrix(0.8,0,0,0.98461538,105,26.99843)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
-  </g>
-  <g id="lineedit-normal-topright" transform="matrix(-0.8,0,0,0.8,183,35.99872)">
-    <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
-    <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
-  </g>
+  <use xlink:href="#lineedit-normal-top" id="lineedit-normal-left" transform="rotate(-90,144,91)"/>
+  <use xlink:href="#lineedit-normal-topleft" id="lineedit-normal-topright" transform="rotate(90,144,91)"/>
   <g id="lineedit-normal-top" transform="matrix(0,0.8,-0.98461538,0,208.00158,52)">
     <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="M 28.75,81.2514 V 48.7516 h -7.5 v 32.5 z"/>
     <path style="fill:#{{ base.hex }}" d="m 21.25,48.7516 v 32.5 h 2.5 v -32.5 z"/>
