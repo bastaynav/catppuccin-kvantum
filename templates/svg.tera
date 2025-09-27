@@ -517,31 +517,16 @@ whiskers:
     <rect style="opacity:0;fill:#{{ surface1.hex }}" width="4" height="4" x="19" y="37" transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-47.666667)"/>
     <path style="fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"/>
   </g>
-  <g id="scrollbarslider-normal-bottomright" transform="matrix(0.75,0,0,0.75,220.25,467.24976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="4" height="4" x="26" y="31" transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-24.333333)"/>
-    <path style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
-  </g>
-  <g id="scrollbarslider-normal-bottom" transform="matrix(0,0.75,-0.1,0,226.7,473.24976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="1" height="4" x="24" y="31" transform="matrix(0,-10,1.3333333,0,-32.333333,257)"/>
-    <path style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
-  </g>
-  <g id="scrollbarslider-normal-bottomleft" transform="matrix(-0.75,0,0,0.75,230.75,467.24976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="4" height="4" x="19" y="31" transform="matrix(-1.3333333,0,0,1.3333333,39.666667,-24.333333)"/>
-    <path style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 9,21 v -4 h 4 c 0,2.216 -1.784,4 -4,4 z"/>
-  </g>
-  <g id="scrollbarslider-normal-right" transform="matrix(0.75,0,0,1,220.25,461.99976)">
-    <path style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="1" height="10" x="29" y="20" transform="matrix(1.3333333,0,0,1,-25.666667,-13)"/>
-  </g>
+  <use xlink:href="#scrollbarslider-normal-topleft" id="scrollbarslider-normal-bottomright" transform="rotate(180,225.5,474)"/>
+  <use xlink:href="#scrollbarslider-normal-top" id="scrollbarslider-normal-bottom" transform="rotate(180,225.5,474)"/>
+  <use xlink:href="#scrollbarslider-normal-topleft" id="scrollbarslider-normal-bottomleft" transform="rotate(-90,230,474)"/>
+  <use xlink:href="#scrollbarslider-normal-left" id="scrollbarslider-normal-right" transform="rotate(180,225.5,474)"/>
   <rect id="scrollbarslider-normal" style="fill:#{{ surface1.hex }}" width="1" height="10" x="225" y="469"/>
   <g id="scrollbarslider-normal-left" transform="matrix(-0.75,0,0,1,230.75,461.99976)">
     <path style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
     <rect style="opacity:0;fill:#{{ surface1.hex }}" width="1" height="10" x="19" y="20" transform="matrix(-1.3333333,0,0,1,39.666667,-13)"/>
   </g>
-  <g id="scrollbarslider-normal-topright" transform="matrix(0.75,0,0,0.75,220.25,462.74976)">
-    <rect style="opacity:0;fill:#{{ surface1.hex }}" width="4" height="4" x="26" y="15" transform="matrix(1.3333333,0,0,1.3333333,-25.666667,-18.333333)"/>
-    <path style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 9,3 v 4 h 4 C 13,4.784 11.216,3 9,3 Z"/>
-  </g>
+  <use xlink:href="#scrollbarslider-normal-topleft" id="scrollbarslider-normal-topright" transform="rotate(90,225.5,469.5)"/>
   <g id="scrollbarslider-normal-top" transform="matrix(0,-0.75,-0.1,0,226.7,474.74976)">
     <rect style="opacity:0.01;fill:#{{ surface1.hex }}" width="1" height="4" x="24" y="15" transform="matrix(0,-10,-1.3333333,0,34.333333,257)"/>
     <path style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 9,7 v 10 h 4 V 7 Z"/>
