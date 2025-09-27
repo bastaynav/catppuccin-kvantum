@@ -617,31 +617,13 @@ whiskers:
     <rect style="opacity:0.00100002" width="2" height="2" x="63" y="96"/>
     <path style="fill:#{{ accent.hex }}" d="m 65,97 c -0.497258,0 -1,0.51007 -1,1 h 1 z"/>
   </g>
-  <g id="progress-normal-bottomright" transform="translate(313,-85.000244)">
-    <rect style="opacity:0.00100002" width="2" height="2" x="95" y="128"/>
-    <path style="fill:#{{ surface1.hex }}" d="m 95,129 c 0.49726,0 1,-0.51007 1,-1 h -1 z"/>
-  </g>
-  <g id="progress-normal-bottom" transform="translate(313,-85.000244)">
-    <rect style="opacity:0.00100002" width="30" height="2" x="65" y="128"/>
-    <rect style="fill:#{{ surface1.hex }}" width="30" height="1" x="65" y="-129" transform="scale(1,-1)"/>
-  </g>
-  <g id="progress-normal-bottomleft" transform="translate(313,-85.000244)">
-    <rect style="opacity:0.00100002" width="2" height="2" x="63" y="128"/>
-    <path style="fill:#{{ surface1.hex }}" d="m 65,129 c -0.49726,0 -1,-0.51007 -1,-1 h 1 z"/>
-  </g>
-  <g id="progress-normal-right" transform="translate(313,-85.000244)">
-    <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-97" transform="rotate(90)"/>
-    <path style="fill:#{{ surface1.hex }}" d="m 96,98 v 30 H 95 V 98 Z"/>
-  </g>
+  <use xlink:href="#progress-normal-topleft" id="progress-normal-bottomright" transform="rotate(180,393,28)"/>
+  <use xlink:href="#progress-normal-top" id="progress-normal-bottom" transform="rotate(180,393,28)"/>
+  <use xlink:href="#progress-normal-topleft" id="progress-normal-bottomleft" transform="rotate(-90,393,28)"/>
+  <use xlink:href="#progress-normal-top" id="progress-normal-right" transform="rotate(90,393,28)"/>
   <rect id="progress-normal" style="fill:#{{ surface1.hex }}" width="30" height="30" x="378" y="13"/>
-  <g id="progress-normal-left" transform="translate(313,-85.000244)">
-    <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-65" transform="rotate(90)"/>
-    <path style="fill:#{{ surface1.hex }}" d="m 64,98 v 30 h 1 V 98 Z"/>
-  </g>
-  <g id="progress-normal-topright" transform="translate(313,-85.000244)">
-    <rect style="opacity:0.00100002" width="2" height="2" x="95" y="96"/>
-    <path style="fill:#{{ surface1.hex }}" d="m 95,97 c 0.49726,0 1,0.51007 1,1 h -1 z"/>
-  </g>
+  <use xlink:href="#progress-normal-top" id="progress-normal-left" transform="rotate(-90,393,28)"/>
+  <use xlink:href="#progress-normal-topleft" id="progress-normal-topright" transform="rotate(90,393,28)"/>
   <g id="progress-normal-top" transform="translate(313,-85.000244)">
     <rect style="opacity:0.00100002" width="30" height="2" x="65" y="96"/>
     <rect style="fill:#{{ surface1.hex }}" width="30" height="1" x="65" y="97"/>
