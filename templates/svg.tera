@@ -445,11 +445,11 @@ whiskers:
   <path id="slider-toggled-left" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 518,19.999766 v 15.90889 0.0911 h 12 v -15.99973 h -12 z"/>
   <path id="slider-toggled-topright" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 530,7.9997563 c 6.648,0 12,5.3519997 12,11.9999997 h -12 z"/>
   <path id="slider-toggled-topleft" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 530,7.9997563 c -6.648,0 -12,5.3519997 -12,11.9999997 h 12 z"/>
-  <path id="slider-normal-bottomright" style="opacity:0.3;fill-rule:evenodd" d="m 499,48.999756 c 6.648,0 12,-5.352 12,-12 h -12 z"/>
+  <use xlink:href="#slider-normal-bottomleft" id="slider-normal-bottomright" transform="matrix(-1,0,0,1,998,0)"/>
   <path id="slider-normal-bottomleft" style="opacity:0.3;fill-rule:evenodd" d="m 499,48.999756 c -6.648,0 -12,-5.352 -12,-12 h 12 z"/>
-  <path id="slider-normal-right" style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 499,20.999806 v 15.90885 0.0911 h 12 v -15.99971 h -12 z"/>
+  <use xlink:href="#slider-normal-left" id="slider-normal-right" transform="translate(12)"/>
   <path id="slider-normal-left" style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 487,20.999806 v 15.90885 0.0911 h 12 v -15.99971 h -12 z"/>
-  <path id="slider-normal-topright" style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 499,8.9997562 c 6.648,0 12,5.3519998 12,11.9999998 h -12 z"/>
+  <use xlink:href="#slider-normal-topleft" id="slider-normal-topright" transform="rotate(90,499,21)"/>
   <path id="slider-normal-topleft" style="fill:#{{ surface1.hex }};fill-rule:evenodd" d="m 499,8.9997562 c -6.648,0 -12,5.3519998 -12,11.9999998 h 12 z"/>
   <use xlink:href="#scrollbarslider-pressed-topleft" id="scrollbarslider-pressed-bottomright" transform="rotate(180,255.5,474)"/>
   <use xlink:href="#scrollbarslider-pressed-top" id="scrollbarslider-pressed-bottom" transform="rotate(180,255.5,474)"/>
