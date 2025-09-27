@@ -439,11 +439,11 @@ whiskers:
   <use id="slider-bottomglow-normal" width="450" height="1380" x="0" y="0" transform="translate(39.999997)" xlink:href="#slider-topglow-normal"/>
   <rect id="slider-topglow-normal" style="opacity:0.6;fill:#dcdcdc;fill-opacity:0" width="10" height="30" x="311.17" y="491.77"/>
   <rect width="5" x="327" y="306" height="1" style="opacity:0.55;fill:#{{ text.hex }}" id="slider-tick-normal"/>
-  <path id="slider-toggled-bottomright" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 530,47.999756 c 6.648,0 12,-5.352 12,-12 h -12 z"/>
-  <path id="slider-toggled-bottomleft" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 530,47.999756 c -6.648,0 -12,-5.352 -12,-12 h 12 z"/>
-  <path id="slider-toggled-right" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 530,19.999766 v 15.90889 0.0911 h 12 v -15.99973 h -12 z"/>
+  <use xlink:href="#slider-toggled-topleft" id="slider-toggled-bottomright" transform="rotate(180,530,28)"/>
+  <use xlink:href="#slider-toggled-topleft" id="slider-toggled-bottomleft" transform="rotate(-90,538,28)"/>
+  <use xlink:href="#slider-toggled-left" id="slider-toggled-right" transform="rotate(180,530,28)"/>
   <path id="slider-toggled-left" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 518,19.999766 v 15.90889 0.0911 h 12 v -15.99973 h -12 z"/>
-  <path id="slider-toggled-topright" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 530,7.9997563 c 6.648,0 12,5.3519997 12,11.9999997 h -12 z"/>
+  <use xlink:href="#slider-toggled-topleft" id="slider-toggled-topright" transform="rotate(90,530,20)"/>
   <path id="slider-toggled-topleft" style="fill:#{{ accent.hex }};fill-rule:evenodd" d="m 530,7.9997563 c -6.648,0 -12,5.3519997 -12,11.9999997 h 12 z"/>
   <use xlink:href="#slider-normal-bottomleft" id="slider-normal-bottomright" transform="matrix(-1,0,0,1,998,0)"/>
   <path id="slider-normal-bottomleft" style="opacity:0.3;fill-rule:evenodd" d="m 499,48.999756 c -6.648,0 -12,-5.352 -12,-12 h 12 z"/>
