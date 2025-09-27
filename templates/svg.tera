@@ -671,12 +671,7 @@ whiskers:
   <rect id="menubaritem-pressed" style="opacity:0.1;fill:#{{ text.hex }}" width="30" height="10" x="803.48" y="155.14"/>
   <rect id="menubaritem-focused" style="opacity:0.1;fill:#{{ text.hex }}" width="30" height="10" x="722.48" y="155.14"/>
   <rect id="menubaritem-normal" style="opacity:0.00100002" width="30" height="10" x="680.28" y="155.14"/>
-  <g id="menubar-normal-bottomright" transform="translate(490,-394.99999)">
-    <path style="fill:#{{ mantle.hex }}" d="m 325,617 h 5 v 2.99999 h -5 z"/>
-    <g id="menubar-normal-bottomright2" style="fill:#b6b6b6" transform="matrix(0.25,0,0,1,248.75,0)">
-      <path style="fill:#{{ mantle.hex }}" d="m 305,621 h 20 v -1.00001 h -20 z"/>
-    </g>
-  </g>
+  <use xlink:href="#menubar-normal-bottomleft" id="menubar-normal-bottomright" transform="translate(25)"/>
   <g id="menubar-normal-bottom" transform="translate(490,-394.99999)">
     <path style="fill:#{{ mantle.hex }}" d="m 305,617 h 20 v 2.99999 h -20 z"/>
     <path style="fill:#{{ mantle.hex }}" d="m 305,619.99999 h 20 V 621 h -20 z"/>
@@ -687,10 +682,10 @@ whiskers:
       <path style="fill:#{{ mantle.hex }}" d="m 305,621 h 20 v -1.00001 h -20 z"/>
     </g>
   </g>
-  <rect id="menubar-normal-right" style="fill:#{{ mantle.hex }}" width="20" height="5" x="202" y="-820" transform="rotate(90)"/>
+  <use xlink:href="#menubar-normal-top" id="menubar-normal-right" transform="rotate(90,805,212)"/>
   <rect id="menubar-normal" style="fill:#{{ mantle.hex }}" width="20" height="20" x="795" y="202"/>
-  <rect id="menubar-normal-left" style="fill:#{{ mantle.hex }}" width="20" height="5" x="202" y="-795" transform="rotate(90)"/>
-  <rect id="menubar-normal-topright" style="fill:#{{ mantle.hex }}" width="5" height="5" x="197" y="-820" transform="rotate(90)"/>
+  <use xlink:href="#menubar-normal-top" id="menubar-normal-left" transform="rotate(-90,805,212)"/>
+  <use xlink:href="#menubar-normal-topleft" id="menubar-normal-topright" transform="rotate(90,805,212)"/>
   <rect id="menubar-normal-top" style="fill:#{{ mantle.hex }}" width="20" height="5" x="795" y="197"/>
   <rect id="menubar-normal-topleft" style="fill:#{{ mantle.hex }}" width="5" height="5" x="197" y="-795" transform="rotate(90)"/>
   <use xlink:href="#menu-shadow-hint-top" id="menu-shadow-hint-left" transform="rotate(-90,564,163)"/>
