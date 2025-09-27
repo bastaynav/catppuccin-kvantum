@@ -584,31 +584,13 @@ whiskers:
     <rect style="fill:#{{ base.hex }};stroke:#{{ text.hex }};stroke-opacity:0.15;stroke-width:2.08222;stroke-linejoin:round" width="27.304" height="26.836" x="52.66" y="127.6" rx="13.224" ry="13.246" id="rect215" transform="matrix(0.47643346,0,0,0.48410885,73.40665,-59.907857)"/>
   </g>
   <rect id="progress-pattern-disabled" style="opacity:0.00100002;fill:#{{ accent.hex }}" width="20" height="20" x="455" y="23"/>
-  <g id="progress-pattern-normal-bottomright" transform="translate(354,-85.000244)">
-    <rect style="opacity:0.00100002" width="2" height="2" x="95" y="128"/>
-    <path style="fill:#{{ accent.hex }}" d="m 95,129 c 0.49726,0 1,-0.51007 1,-1 h -1 z"/>
-  </g>
-  <g id="progress-pattern-normal-bottom" transform="translate(354,-85.000244)">
-    <rect style="opacity:0.00100002" width="30" height="2" x="65" y="128"/>
-    <rect style="fill:#{{ accent.hex }}" width="30" height="1" x="65" y="-129" transform="scale(1,-1)"/>
-  </g>
-  <g id="progress-pattern-normal-bottomleft" transform="translate(354,-85.000244)">
-    <rect style="opacity:0.00100002" width="2" height="2" x="63" y="128"/>
-    <path style="fill:#{{ accent.hex }}" d="m 65,129 c -0.49726,0 -1,-0.51007 -1,-1 h 1 z"/>
-  </g>
-  <g id="progress-pattern-normal-right" transform="translate(354,-85.000244)">
-    <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-97" transform="rotate(90)"/>
-    <path style="fill:#{{ accent.hex }}" d="m 96,98 v 30 H 95 V 98 Z"/>
-  </g>
+  <use xlink:href="#progress-pattern-normal-topleft" id="progress-pattern-normal-bottomright" transform="rotate(180,434,28)"/>
+  <use xlink:href="#progress-pattern-normal-top" id="progress-pattern-normal-bottom" transform="rotate(180,434,28)"/>
+  <use xlink:href="#progress-pattern-normal-topleft" id="progress-pattern-normal-bottomleft" transform="rotate(-90,434,28)"/>
+  <use xlink:href="#progress-pattern-normal-top" id="progress-pattern-normal-right" transform="rotate(90,434,28)"/>
   <rect id="progress-pattern-normal" style="fill:#{{ accent.hex }}" width="30" height="30" x="419" y="13"/>
-  <g id="progress-pattern-normal-left" transform="translate(354,-85.000244)">
-    <rect style="opacity:0.00100002" width="30" height="2" x="98" y="-65" transform="rotate(90)"/>
-    <path style="fill:#{{ accent.hex }}" d="m 64,98 v 30 h 1 V 98 Z"/>
-  </g>
-  <g id="progress-pattern-normal-topright" transform="translate(354,-85.000244)">
-    <rect style="opacity:0.00100002" width="2" height="2" x="95" y="96"/>
-    <path style="fill:#{{ accent.hex }}" d="m 95,97 c 0.49726,0 1,0.51007 1,1 h -1 z"/>
-  </g>
+  <use xlink:href="#progress-pattern-normal-top" id="progress-pattern-normal-left" transform="rotate(-90,434,28)"/>
+  <use xlink:href="#progress-pattern-normal-topleft" id="progress-pattern-normal-topright" transform="rotate(90,434,28)"/>
   <g id="progress-pattern-normal-top" transform="translate(354,-85.000244)">
     <rect style="opacity:0.00100002" width="30" height="2" x="65" y="96"/>
     <rect style="fill:#{{ accent.hex }}" width="30" height="1" x="65" y="97"/>
