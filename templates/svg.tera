@@ -943,13 +943,13 @@ whiskers:
     <rect id="header-separator0" style="fill-opacity:0" width="2" height="36" x="608" y="533.03"/>
     <path style="opacity:0.3" d="m 608,533.02875 h 0.98586 v 36 H 608 Z"/>
   </g>
-  <path style="opacity:0.3" d="m 464.99998,554.9971 c 1.10161,0 0.99736,0.10447 0.99736,-0.99735 h -0.99736 z" id="header-focused-bottomright"/>
-  <path style="opacity:0.3" d="m 424.00043,553.9999 h 40 v 0.99986 h -40 z" id="header-focused-bottom"/>
-  <path style="opacity:0.3" d="m 423,554.9971 c -1.10167,0 -0.99736,0.10447 -0.99736,-0.99735 H 423 Z" id="header-focused-bottomleft"/>
-  <path style="opacity:0.00100002" d="m 465.00002,512.99979 v 40 h 1.00004 v -40 z" id="header-focused-right"/>
+  <use xlink:href="#header-focused-topleft" id="header-focused-bottomright" transform="rotate(180,444,533)"/>
+  <use xlink:href="#header-focused-top" id="header-focused-bottom" transform="rotate(180,444,533)"/>
+  <use xlink:href="#header-focused-topleft" id="header-focused-bottomleft" transform="rotate(-90,444,533)"/>
+  <use xlink:href="#header-focused-left" id="header-focused-right" transform="rotate(180,444,533)"/>
   <rect id="header-focused" style="fill:#{{ mantle.hex }}" width="40" height="40" x="424" y="-553" transform="scale(1,-1)"/>
   <path style="opacity:0.00100002" d="m 422.99998,552.9997 v -40 H 422 v 40 z" id="header-focused-left"/>
-  <path style="opacity:0.3" d="m 464.99998,511.0024 c 1.10161,0 0.99736,-0.10427 0.99736,0.99736 h -0.99736 z" id="header-focused-topright"/>
+  <use xlink:href="#header-focused-topleft" id="header-focused-topright" transform="rotate(90,444,533)"/>
   <path style="opacity:0.3" d="m 424.00043,511.99975 h 40 v -1.00005 h -40 z" id="header-focused-top"/>
   <path style="opacity:0.3" d="m 423,511.00241 c -1.10167,0 -0.99736,-0.10427 -0.99736,0.99736 H 423 Z" id="header-focused-topleft"/>
   <use xlink:href="#header-normal-topleft" id="header-normal-bottomright" transform="rotate(180,491,533)"/>
