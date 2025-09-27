@@ -1095,28 +1095,16 @@ whiskers:
     <path style="opacity:0.00100002;fill-rule:evenodd" d="m 26.25,41.2516 h -5 v 5 h 5 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 26.25,41.2516 h -5 v 5 h 1.2503 v -3.75 H 26.25 Z"/>
   </g>
-  <g id="floating-tab-focused-bottomright" transform="matrix(-1,0,0,0.66666667,608.0003,-353.33357)">
-    <path style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" transform="matrix(-1,0,0,1.5,676.00021,225.50035)" d="m 502,460 v 4 h 3 v -4 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="M 171.0001,921.5 H 170 l 1e-4,-6 h 1.0001 z"/>
-  </g>
+  <use xlink:href="#floating-tab-focused-bottomleft" id="floating-tab-focused-bottomright" transform="rotate(180,418,259)"/>
   <path id="floating-tab-focused-bottom" style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 402.0003,256.99987 h 31.9998 v 4 h -32 z"/>
   <g id="floating-tab-focused-bottomleft" transform="matrix(1,0,0,0.66666667,228,-353.33347)">
     <path style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" transform="matrix(1,0,0,1.5,-295.99991,225.5002)" d="m 467,460 v 4 h 3 v -4 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 171,921.5 h -1 l 1e-4,-6 h 1 z"/>
   </g>
-  <g id="floating-tab-focused-right" transform="matrix(-0.8,0,0,0.98461538,455.0002,176.9983)">
-    <path style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" transform="matrix(-1.25,0,0,1.015625,653.75014,-385.93578)" d="m 502,428 v 32 h 3 v -32 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.2497 v -32.5 z"/>
-  </g>
+  <use xlink:href="#floating-tab-focused-top" id="floating-tab-focused-right" transform="rotate(90,418,241)"/>
   <path id="floating-tab-focused" style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" d="m 402.0001,224.99987 v 32 h 32 v -32 z"/>
-  <g id="floating-tab-focused-left" transform="matrix(0.8,0,0,0.98461538,381.0003,176.99829)">
-    <path style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" transform="matrix(1.25,0,0,1.015625,-561.25026,-385.93577)" d="m 467,428 v 32 h 3 v -32 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.2497 v -32.5 z"/>
-  </g>
-  <g id="floating-tab-focused-topright" transform="matrix(-0.8,0,0,0.8,455.0001,187.99859)">
-    <path style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" transform="matrix(-1.25,0,0,1.25,653.75001,-488.74824)" d="m 502,425 v 3 h 3 v -3 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 26.25,41.2516 h -5 v 5 h 1.2503 v -3.75 H 26.25 Z"/>
-  </g>
+  <use xlink:href="#floating-tab-focused-top" id="floating-tab-focused-left" transform="rotate(-90,418,241)"/>
+  <use xlink:href="#floating-tab-focused-topleft" id="floating-tab-focused-topright" transform="rotate(90,418,241)"/>
   <g id="floating-tab-focused-top" transform="matrix(0,0.8,-0.98461538,0,482.00148,203.99987)">
     <path style="opacity:0.06;fill:#{{ surface2.hex }};fill-rule:evenodd" transform="matrix(0,-1.015625,1.25,0,-508.74984,558.59516)" d="m 470,425 v 3 h 32 v -3 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 21.25,48.7516 v 32.5 h 1.2497 v -32.5 z"/>
