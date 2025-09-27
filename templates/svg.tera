@@ -930,14 +930,14 @@ whiskers:
   <path id="itemview-pressed-topright" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 318.11927,556.99973 c 0.48641,0 0.88073,1.0745 0.88073,2.4 v 1.2 h -0.88073 v -1.2 z"/>
   <rect id="itemview-pressed-top" style="opacity:0.25;fill:#{{ accent.hex }}" width="46.239" height="3.6" x="271.88" y="-560.6" transform="scale(1,-1)"/>
   <path id="itemview-pressed-topleft" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 271.88074,556.99973 c -0.48641,0 -0.88073,1.0745 -0.88073,2.4 v 1.2 h 0.88073 v -1.2 z"/>
-  <path id="itemview-focused-bottomright" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 179,602.59961 a 0.88073379,2.3999989 0 0 1 -0.88074,2.4 v -2.4 z"/>
+  <use xlink:href="#itemview-focused-bottomleft" id="itemview-focused-bottomright" transform="matrix(-1,0,0,1,310,0)"/>
   <rect style="opacity:0.25;fill:#{{ accent.hex }}" width="46.238998" height="2.3999989" x="131.87842" y="-605.00446" id="itemview-focused-bottom" transform="scale(1,-1)"/>
   <path id="itemview-focused-bottomleft" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 131,602.59961 a 0.88073379,2.3999989 0 0 0 0.88074,2.4 v -2.4 z"/>
-  <rect style="opacity:0.25;fill:#{{ accent.hex }}" width="0.88099998" height="41.999916" x="178.11798" y="-602.60742" id="itemview-focused-right" transform="scale(1,-1)"/>
+  <use xlink:href="#itemview-focused-left" id="itemview-focused-right" transform="rotate(180,155,581.6)"/>
   <rect id="itemview-focused" style="opacity:0.25;fill:#{{ accent.hex }}" width="46.239" height="42" x="131.88" y="-602.6" transform="scale(1,-1)"/>
   <rect style="opacity:0.25;fill:#{{ accent.hex }}" width="0.88099998" height="41.999916" x="130.99876" y="-602.60742" id="itemview-focused-left" transform="scale(1,-1)"/>
-  <path id="itemview-focused-topright" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 178.11927,556.99973 c 0.48641,0 0.88073,1.0745 0.88073,2.4 v 1.2 h -0.88073 v -1.2 z"/>
   <rect id="itemview-focused-top" style="opacity:0.2;fill:#{{ accent.hex }}" width="46.239" height="3.6" x="131.88" y="-560.6" transform="scale(1,-1)"/>
+  <use id="itemview-focused-topright" transform="matrix(-1,0,0,1,310,0)" xlink:href="#itemview-focused-topleft"/>
   <path id="itemview-focused-topleft" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 131.88074,556.99973 c -0.48641,0 -0.88073,1.0745 -0.88073,2.4 v 1.2 h 0.88073 v -1.2 z"/>
   <g id="header-separator" transform="translate(-26,-19.028994)">
     <rect id="header-separator0" style="fill-opacity:0" width="2" height="36" x="608" y="533.03"/>
