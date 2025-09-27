@@ -25,11 +25,7 @@ whiskers:
     <linearGradient id="linearGradient11129" x1="533" x2="533" y1="373" y2="383" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3893"/>
     <radialGradient id="radialGradient11179" cx="571" cy="373" r="5" fx="571" fy="373" gradientTransform="matrix(0,2,-2,0,1317,-769)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient3893"/>
   </defs>
-  <g id="window-normal-bottomright" transform="matrix(5.000004,0,0,1,512.99979,168.97102)">
-    <path style="fill:#{{ base.hex }}" d="m 59.999996,131.02901 v 2.49999 2.49998 c 0.26796,0 1.000004,0 1.000004,0 0,0 -4e-6,-3.57838 -4e-6,-4.99997 h -0.5 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 59.999996,135.02899 v 0.5 0.49999 c 0.26796,0 1.000004,0 1.000004,0 0,0 -4e-6,-0.71567 -4e-6,-0.99999 h -0.5 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 60.999995,131.02899 h -0.1 -0.1 v 4.00001 l 0.199998,-2e-5 v -1.49999 z"/>
-  </g>
+  <use xlink:href="#window-normal-bottomleft" id="window-normal-bottomright" transform="matrix(-1,0,0,1,1580,0)"/>
   <g id="window-normal-bottom" transform="translate(753.00001,168.97102)">
     <path style="fill:#{{ base.hex }}" d="m 13.999999,131.02895 v 2.49998 2.49998 h 45.999999 v -2.49998 -2.49998 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 13.999999,135.02898 v 0.49999 0.5 h 45.999999 v -0.5 -0.49999 z"/>
@@ -39,19 +35,13 @@ whiskers:
     <path style="fill:#{{ surface0.hex }}" d="m 12.999997,135.02899 4e-6,0.99998 0.999996,1e-5 v -0.5 -0.49999 h -0.501109 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 13.199993,131.02897 -0.199996,2e-5 -2e-6,4 h 0.1 0.1 v -1.50557 z"/>
   </g>
-  <g id="window-normal-right" transform="matrix(0,1,1,0,681.97102,240.00001)">
-    <path style="fill:#{{ base.hex }}" d="m 13.999999,131.02895 v 2.49998 2.49998 h 45.999999 v -2.49998 -2.49998 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 13.999999,135.02898 v 0.49999 0.5 h 45.999999 v -0.5 -0.49999 z"/>
-  </g>
+  <use xlink:href="#window-normal-left" id="window-normal-right" transform="rotate(180,790,277)"/>
   <rect id="window-normal" style="fill:#{{ base.hex }}" width="46" height="46" x="767" y="254"/>
   <g id="window-normal-left" transform="rotate(90,329.0145,569.01449)">
     <path style="fill:#{{ base.hex }}" d="m 13.999999,131.02895 v 2.49998 2.49998 h 45.999999 v -2.49998 -2.49998 z"/>
     <path style="fill:#{{ surface0.hex }}" d="m 13.999999,135.02898 v 0.49999 0.5 h 45.999999 v -0.5 -0.49999 z"/>
   </g>
-  <g id="window-normal-topright" transform="matrix(0,1,1,0,681.97102,240.00001)">
-    <path style="fill:#{{ base.hex }}" d="m 12.999997,131.02899 4e-6,4.99996 0.999996,2e-5 v -2.49999 -2.49999 h -0.501109 z"/>
-    <path style="fill:#{{ surface0.hex }}" d="m 12.999997,135.02899 4e-6,0.99998 0.999996,1e-5 v -0.5 -0.49999 h -0.501109 z"/>
-  </g>
+  <use xlink:href="#window-normal-topleft" id="window-normal-topright" transform="rotate(180,790,253.5)"/>
   <path style="fill:#{{ base.hex }}" d="m 767,253.00031 v 0.5 0.5 h 46 v -0.5 -0.5 z" id="window-normal-top"/>
   <g id="window-normal-topleft" transform="rotate(90,329.0145,569.01449)">
     <path style="fill:#{{ base.hex }}" d="m 12.999997,131.02899 4e-6,4.99996 0.999996,2e-5 v -2.49999 -2.49999 h -0.501109 z"/>
