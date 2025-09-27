@@ -1041,13 +1041,13 @@ whiskers:
     <rect style="opacity:0.00100002" width="8" height="8" x="186" y="529"/>
     <path style="fill:#{{ text.hex }}" transform="matrix(0.72168782,0,0,1,52.663678,0.42535408)" d="m 194.45572,532.57465 -3.46411,2 -3.4641,2 v -4 -4 l 3.4641,2 z"/>
   </g>
-  <path style="fill:#{{ surface0.hex }}" d="m 748.99998,411.9971 c 1.10161,0 0.99736,0.10447 0.99736,-0.99735 h -0.99736 z" id="group-normal-bottomright"/>
-  <path style="fill:#{{ surface0.hex }}" d="m 708.00043,410.9999 h 40 v 0.99986 h -40 z" id="group-normal-bottom"/>
-  <path style="fill:#{{ surface0.hex }}" d="m 707,411.9971 c -1.10167,0 -0.99736,0.10447 -0.99736,-0.99735 H 707 Z" id="group-normal-bottomleft"/>
-  <path style="fill:#{{ surface0.hex }}" d="m 749.00002,369.99979 v 40 h 1.00004 v -40 z" id="group-normal-right"/>
+  <use xlink:href="#group-normal-topleft" id="group-normal-bottomright" transform="rotate(180,728,390)"/>
+  <use xlink:href="#group-normal-top" id="group-normal-bottom" transform="rotate(180,728,390)"/>
+  <use xlink:href="#group-normal-topleft" id="group-normal-bottomleft" transform="rotate(-90,728,390)"/>
+  <use xlink:href="#group-normal-top" id="group-normal-right" transform="rotate(90,728,390)"/>
   <rect id="group-normal" style="opacity:0.00100002" width="40" height="40" x="708" y="-410" transform="scale(1,-1)"/>
-  <path style="fill:#{{ surface0.hex }}" d="m 706.99998,409.9997 v -40 H 706 v 40 z" id="group-normal-left"/>
-  <path style="fill:#{{ surface0.hex }}" d="m 748.99998,368.0024 c 1.10161,0 0.99736,-0.10427 0.99736,0.99736 h -0.99736 z" id="group-normal-topright"/>
+  <use xlink:href="#group-normal-top" id="group-normal-left" transform="rotate(-90,728,390)"/>
+  <use xlink:href="#group-normal-topleft" id="group-normal-topright" transform="rotate(90,728,390)"/>
   <path style="fill:#{{ surface0.hex }}" d="m 708.00043,368.99975 h 40 v -1.00005 h -40 z" id="group-normal-top"/>
   <path style="fill:#{{ surface0.hex }}" d="m 707,368.00241 c -1.10167,0 -0.99736,-0.10427 -0.99736,0.99736 H 707 Z" id="group-normal-topleft"/>
   <rect id="grip-pressed" style="opacity:0" width="5" height="5" x="609.3" y="636.64"/>
