@@ -9,7 +9,7 @@ whiskers:
 ---
 [%General]
 author=elkrien based on Arc Dark style
-comment=Catppuccin-{{ flavor.identifier | capitalize }}-{{ accent | capitalize }}
+comment=Soothing pastel theme for Kvantum
 x11drag=menubar_and_primary_toolbar
 drag_from_buttons=false
 respect_DE=true
