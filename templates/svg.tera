@@ -154,25 +154,15 @@ whiskers:
     <path style="opacity:0.95;fill:#{{ surface0.hex }}" transform="scale(-1)" d="m 721.4667,-779.58405 c 1e-5,1.79493 -4.74801,3.49153 -9.76461,3.49153 v -3.49153 z"/>
     <path style="fill:#{{ mantle.hex }}" transform="matrix(2.2708348,0,0,0.81250075,-2453.4324,491.93543)" d="m 767,349.0293 a 4.9999999,5.0000001 0 0 0 -5,5 h 1 a 3.9999998,4.0000001 0 0 1 4,-4 z"/>
   </g>
-  <g id="tbutton-toggled-bottomright" transform="matrix(0.44036669,0,0,1.273756,580.99744,-354.48642)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.78507972,-1319.3492,278.27734)" d="m 288.23828,678.0293 v 3.5 1.5 a 5,5 0 0 0 5,-5 h -1.5 z"/>
-  </g>
-  <g id="tbutton-toggled-bottom" transform="matrix(0.84070003,0,0,1.2307681,847.14198,-319.64117)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(1.1894849,0,0,0.81250075,-1007.6626,259.68513)" d="m 241.99805,678.02344 v 3.5 1.50195 h 46.23828 v -1.50195 -3.5 z"/>
-  </g>
-  <g id="tbutton-toggled-bottomleft" transform="matrix(0.44036669,0,0,1.2307681,562.12006,-316.37576)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.81250075,-1276.4818,257.03199)" d="m 237,678.0293 a 5.0000005,5.0000001 0 0 0 5,5 v -1.46289 -3.5 -0.0371 z"/>
-  </g>
-  <g id="tbutton-toggled-right" transform="matrix(0.30924086,0,0,2.0512769,494.3238,-984.73264)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(3.2337253,0,0,0.48750122,-1598.5074,480.04423)" d="m 288.24023,634.94336 v 0.0117 h -0.002 v 43.07617 h 3.5 v -0.0117 h 1.50195 v -43.07617 z"/>
-  </g>
+  <use xlink:href="#tbutton-toggled-topleft" id="tbutton-toggled-bottomright" transform="rotate(180,265.11914,656.48078)"/>
+  <use xlink:href="#tbutton-toggled-top" id="tbutton-toggled-bottom" transform="rotate(180,265.11719,656.45831)"/>
+  <use xlink:href="#tbutton-toggled-topleft" id="tbutton-toggled-bottomleft" transform="rotate(-90,263.53809,656.49933)"/>
+  <use xlink:href="#tbutton-toggled-left" id="tbutton-toggled-right" transform="rotate(180,265.12008,656.47295)"/>
   <rect id="tbutton-toggled" style="opacity:0.3;fill:#{{ accent.hex }}" width="46.238" height="43.077" x="242" y="634.92"/>
   <g id="tbutton-toggled-left" transform="matrix(0.44036669,0,0,2.0512769,558.97914,-984.73264)">
     <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.48750122,-1269.3493,480.04423)" d="m 237,634.98438 v 43.07617 h 1.5 v 0.01 h 3.5 v -0.01 -43.06836 -0.008 z"/>
   </g>
-  <g id="tbutton-toggled-topright" transform="matrix(2.3414816,0,0,5,1844.8721,-3262.9974)">
-    <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(0.42708002,0,0,0.2,-787.90801,652.59368)" d="m 288.23828,629.95117 v 1.5 3.5 h 3.5 1.5 a 5,5 0 0 0 -5,-5 z"/>
-  </g>
+  <use xlink:href="#tbutton-toggled-topleft" id="tbutton-toggled-topright" transform="rotate(90,265.14852,658.05288)"/>
   <g id="tbutton-toggled-top" transform="matrix(0.84070003,0,0,1.2307681,847.14198,-324.56423)">
     <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(1.1894849,0,0,0.81250075,-1007.6626,263.68512)" d="m 241.99805,629.94922 v 1.50195 3.5 h 46.23828 v -3.5 -1.50195 z"/>
   </g>
