@@ -204,31 +204,16 @@ whiskers:
   <g id="tbutton-pressed-topleft" transform="matrix(0.44036669,0,0,1.2307681,481.40997,-324.52587)">
     <path style="opacity:0.3;fill:#{{ accent.hex }}" transform="matrix(2.2708348,0,0,0.81250075,-1093.2025,263.65396)" d="m 168,629.99023 a 5,5.0000001 0 0 0 -5,5 h 1.5 3.5 v -3.5 z"/>
   </g>
-  <g id="tbutton-focused-bottomright" transform="matrix(0.44036669,0,0,1.273756,433.9975,-354.48639)">
-    <path style="opacity:0.3" d="m -653.45302,810.58392 a 11.354174,3.9253986 0 0 1 -11.35417,3.9254 v -3.9254 z"/>
-    <path style="fill:#{{ surface1.hex }}" d="m -656.85921,810.58392 a 7.9479218,2.7477789 0 0 1 -7.94792,2.74778 v -2.74778 z"/>
-  </g>
-  <g id="tbutton-focused-bottom" transform="matrix(0.84070004,0,0,1.2307681,700.14203,-319.64116)">
-    <rect style="opacity:0.3" width="55" height="4.063" x="-719.81" y="810.58"/>
-    <rect style="fill:#{{ surface1.hex }}" width="55" height="2.844" x="-719.81" y="810.58"/>
-  </g>
-  <g id="tbutton-focused-bottomleft" transform="matrix(0.44036669,0,0,1.2307681,415.12006,-316.37576)">
-    <path style="opacity:0.3" transform="rotate(90)" d="m 811.99335,726.93976 a 4.0625038,11.354175 0 0 1 -4.0625,11.35417 v -11.35417 z"/>
-    <path style="fill:#{{ surface1.hex }}" transform="rotate(90)" d="m 810.7746,726.93964 a 2.8437526,7.9479218 0 0 1 -2.84375,7.94792 v -7.94792 z"/>
-  </g>
-  <g id="tbutton-focused-right" transform="matrix(0.30924086,0,0,2.0512769,347.32386,-984.73244)">
-    <rect style="opacity:0.3" width="16.169" height="21" x="-666.42" y="789.58"/>
-    <rect style="fill:#{{ surface1.hex }}" width="11.318" height="21" x="-666.42" y="789.58"/>
-  </g>
+  <use xlink:href="#tbutton-focused-topleft" id="tbutton-focused-bottomright" transform="rotate(180,118.11932,656.46134)"/>
+  <use xlink:href="#tbutton-focused-top" id="tbutton-focused-bottom" transform="rotate(180,118.11815,656.46119)"/>
+  <use xlink:href="#tbutton-focused-topleft" id="tbutton-focused-bottomleft" transform="rotate(-90,116.53848,656.46136)"/>
+  <use xlink:href="#tbutton-focused-left" id="tbutton-focused-right" transform="rotate(180,118.12044,656.4585)"/>
   <rect id="tbutton-focused" style="fill:#{{ surface1.hex }}" width="46.239" height="43.077" x="95" y="634.92"/>
   <g id="tbutton-focused-left" transform="matrix(0.44036669,0,0,2.0512769,411.97915,-984.77094)">
     <rect style="opacity:0.3" width="11.354" height="21" x="-731.16" y="789.6"/>
     <rect style="fill:#{{ surface1.hex }}" width="7.948" height="21" x="-727.75" y="789.6"/>
   </g>
-  <g id="tbutton-focused-topright" transform="translate(0,-0.0289917)">
-    <path style="opacity:0.3" d="m 146.23858,634.95205 a 5,5 0 0 0 -5,-5 v 5 z"/>
-    <path style="fill:#{{ surface1.hex }}" d="m 144.73858,634.95205 a 3.5000001,3.5 0 0 0 -3.5,-3.5 v 3.5 z"/>
-  </g>
+  <use xlink:href="#tbutton-focused-topleft" id="tbutton-focused-topright" transform="rotate(90,118.11927,658.04224)"/>
   <g id="tbutton-focused-top" transform="matrix(0.84070004,0,0,1.2307681,700.14203,-324.56417)">
     <rect style="opacity:0.3" width="55" height="4.063" x="-719.81" y="775.52"/>
     <rect style="fill:#{{ surface1.hex }}" width="55" height="2.844" x="-719.81" y="776.74"/>
