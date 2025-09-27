@@ -912,13 +912,13 @@ whiskers:
     <path style="fill:#{{ surface0.hex }};fill-rule:evenodd" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 7.5 z"/>
     <path style="fill:#{{ base.hex }}" d="m 28.75,41.2516 c -4.125,-5.1e-5 -7.50003,3.37497 -7.5,7.5 h 2.5 c 0,-3.125 1.875,-5 5,-5 z"/>
   </g>
-  <path id="itemview-toggled-bottomright" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 241,602.59961 a 0.88073379,2.3999989 0 0 1 -0.88074,2.4 v -2.4 z"/>
+  <use xlink:href="#itemview-toggled-bottomleft" id="itemview-toggled-bottomright" transform="matrix(-1,0,0,1,434,0)"/>
   <rect style="opacity:0.25;fill:#{{ accent.hex }}" width="46.238998" height="2.3999989" x="193.87842" y="-605.00446" id="itemview-toggled-bottom" transform="scale(1,-1)"/>
   <path id="itemview-toggled-bottomleft" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 193,602.59961 a 0.88073379,2.3999989 0 0 0 0.88074,2.4 v -2.4 z"/>
-  <rect style="opacity:0.25;fill:#{{ accent.hex }}" width="0.88099998" height="41.999916" x="240.11798" y="-602.60742" id="itemview-toggled-right" transform="scale(1,-1)"/>
+  <use xlink:href="#itemview-toggled-left" id="itemview-toggled-right" transform="rotate(180,217,581.6)"/>
   <rect id="itemview-toggled" style="opacity:0.25;fill:#{{ accent.hex }}" width="46.239" height="42" x="193.88" y="-602.6" transform="scale(1,-1)"/>
   <rect style="opacity:0.25;fill:#{{ accent.hex }}" width="0.88099998" height="41.999916" x="192.99876" y="-602.60742" id="itemview-toggled-left" transform="scale(1,-1)"/>
-  <path id="itemview-toggled-topright" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 240.11927,556.99973 c 0.48641,0 0.88073,1.0745 0.88073,2.4 v 1.2 h -0.88073 v -1.2 z"/>
+  <use xlink:href="#itemview-toggled-topleft" id="itemview-toggled-topright" transform="matrix(-1,0,0,1,434,0)"/>
   <rect id="itemview-toggled-top" style="opacity:0.25;fill:#{{ accent.hex }}" width="46.239" height="3.6" x="193.88" y="-560.6" transform="scale(1,-1)"/>
   <path id="itemview-toggled-topleft" style="opacity:0.25;fill:#{{ accent.hex }}" d="m 193.88074,556.99973 c -0.48641,0 -0.88073,1.0745 -0.88073,2.4 v 1.2 h 0.88073 v -1.2 z"/>
   <use xlink:href="#itemview-pressed-bottomleft" id="itemview-pressed-bottomright" transform="matrix(-1,0,0,1,590,0)"/>
