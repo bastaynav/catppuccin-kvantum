@@ -119,22 +119,10 @@ whiskers:
     <rect style="fill-opacity:0" width="2" height="36" x="608" y="533.03"/>
     <path style="opacity:0.3" d="M 607.91667,533.02875 H 607.5 v 36 h 0.41667 z"/>
   </g>
-  <g id="tooltip-normal-bottomright" transform="matrix(-0.44036669,0,0,-1.2307681,499.59011,1356.4866)">
-    <path style="opacity:0.95;fill:#{{ surface0.hex }}" transform="scale(-1)" d="m 721.4666,-779.58382 c 10e-6,1.79493 -4.74797,3.49375 -9.76457,3.49375 v -3.49398 z"/>
-    <path style="fill:#{{ mantle.hex }}" transform="matrix(-2.2708348,0,0,-0.81250075,1134.4867,1102.1702)" d="m 817,397.0293 a 3.9999998,4.0000001 0 0 1 -4,4 v 1 a 4.9999999,5.0000001 0 0 0 5,-5 z"/>
-  </g>
-  <g id="tooltip-normal-bottom" transform="matrix(0.83636364,0,0,-1.2307681,1369.0206,1356.4865)">
-    <path style="opacity:0.95;fill:#{{ surface0.hex }}" d="m -719.81,776.08999 h 55 v 3.49003 h -55 z"/>
-    <path style="fill:#{{ mantle.hex }}" transform="matrix(1.1956522,0,0,-0.81250075,-1636.8724,1102.1701)" d="m 767,401.0293 v 1 h 46 v -1 z"/>
-  </g>
-  <g id="tooltip-normal-bottomleft" transform="matrix(0.44036669,0,0,-1.2307681,1080.4099,1356.4866)">
-    <path style="opacity:0.95;fill:#{{ surface0.hex }}" transform="scale(-1)" d="m 721.4667,-779.58405 c 1e-5,1.79493 -4.74801,3.49398 -9.76461,3.49398 v -3.49398 z"/>
-    <path style="fill:#{{ mantle.hex }}" transform="matrix(2.2708348,0,0,-0.81250075,-2453.4324,1102.1702)" d="m 762,397.0293 a 4.9999999,5.0000001 0 0 0 5,5 v -1 a 3.9999998,4.0000001 0 0 1 -4,-4 z"/>
-  </g>
-  <g id="tooltip-normal-right" transform="matrix(-0.44036669,0,0,2.0476103,496.02091,-1262.7992)">
-    <path style="opacity:0.95;fill:#{{ surface0.hex }}" d="m -729.57166,789.59998 h 9.76465 v 21 h -9.76465 z"/>
-    <path style="fill:#{{ mantle.hex }}" transform="matrix(-2.2708348,0,0,0.48837418,1126.3816,616.70421)" d="m 817,354.0293 v 43 h 1 v -43 z"/>
-  </g>
+  <use xlink:href="#tooltip-normal-topleft" id="tooltip-normal-bottomright" transform="rotate(180,790,375.5)"/>
+  <use xlink:href="#tooltip-normal-top" id="tooltip-normal-bottom" transform="rotate(180,790,375.5)"/>
+  <use xlink:href="#tooltip-normal-topleft" id="tooltip-normal-bottomleft" transform="rotate(-90,788.5,375.5)"/>
+  <use xlink:href="#tooltip-normal-left" id="tooltip-normal-right" transform="rotate(180,790,375.5)"/>
   <g id="tooltip-normal" transform="matrix(1.4375,0,0,1.34375,568.62497,-2636.5162)">
     <path style="opacity:0.95;fill:#{{ surface0.hex }}" d="m 138,2225.5 h 32 v 32 h -32 z"/>
   </g>
@@ -142,10 +130,7 @@ whiskers:
     <path style="opacity:0.95;fill:#{{ surface0.hex }}" d="m -729.57176,789.59998 h 9.76475 v 21 h -9.76475 z"/>
     <path style="fill:#{{ mantle.hex }}" transform="matrix(2.2708348,0,0,0.48837418,-2461.5375,616.70421)" d="m 762,354.0293 v 43 h 1 v -43 z"/>
   </g>
-  <g id="tooltip-normal-topright" transform="matrix(-0.44036669,0,0,1.2307681,499.59011,-605.48774)">
-    <path style="opacity:0.95;fill:#{{ surface0.hex }}" transform="scale(-1)" d="m 721.4666,-779.58405 c 10e-6,1.79493 -4.74797,3.49153 -9.76457,3.49153 v -3.49153 z"/>
-    <path style="fill:#{{ mantle.hex }}" transform="matrix(-2.2708348,0,0,0.81250075,1134.4867,491.93543)" d="m 813,349.0293 v 1 a 3.9999998,4.0000001 0 0 1 4,4 h 1 a 4.9999999,5.0000001 0 0 0 -5,-5 z"/>
-  </g>
+  <use xlink:href="#tooltip-normal-topleft" id="tooltip-normal-topright" transform="rotate(90,790,377)"/>
   <g id="tooltip-normal-top" transform="matrix(0.83636364,0,0,1.2307681,1369.0206,-605.48767)">
     <path style="opacity:0.95;fill:#{{ surface0.hex }}" d="m -719.81,776.0884 h 55 v 3.49162 h -55 z"/>
     <path style="fill:#{{ mantle.hex }}" transform="matrix(1.1956522,0,0,0.81250075,-1636.8724,491.93537)" d="m 767,349.0293 v 1 h 46 v -1 z"/>
