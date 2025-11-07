@@ -124,7 +124,6 @@ noninteger_translucency=false
 blur_only_active_window=false
 
 [PanelButtonCommand]
-inherits=PanelButtonCommand
 interior.element=button
 frame.element=button
 text.normal.color=#{{ text.hex }}
